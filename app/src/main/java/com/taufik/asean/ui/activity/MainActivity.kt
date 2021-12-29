@@ -1,5 +1,6 @@
-package com.taufik.asean.ui
+package com.taufik.asean.ui.activity
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -9,6 +10,7 @@ import com.taufik.asean.R
 import com.taufik.asean.data.CountriesData
 import com.taufik.asean.data.Country
 import com.taufik.asean.databinding.ActivityMainBinding
+import com.taufik.asean.ui.adapter.CountryAdapter
 
 class MainActivity : AppCompatActivity() {
 
@@ -49,7 +51,7 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.action_about -> {
-
+                startActivity(Intent(this, ProfileActivity::class.java))
             }
         }
         return super.onOptionsItemSelected(item)
