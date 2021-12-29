@@ -21,6 +21,8 @@
             android:layout_height="55dp"
             android:layout_marginEnd="16dp"
             tools:src="@tools:sample/avatars"
+            app:civ_border_width="1dp"
+            app:civ_border_color="@color/purple_500"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"/>
