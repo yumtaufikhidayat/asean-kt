@@ -1,18 +1,25 @@
 package com.taufik.asean.ui.activity
 
 import android.annotation.SuppressLint
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
+import android.util.Log
 import android.view.MenuItem
+import android.view.View
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.DecodeFormat
 import com.bumptech.glide.request.RequestOptions
 import com.bumptech.glide.request.target.Target
 import com.taufik.asean.R
 import com.taufik.asean.databinding.ActivityProfileBinding
+import com.taufik.asean.utils.Utils.Companion.makeLinks
 
 
-class ProfileActivity : AppCompatActivity() {
+class ProfileActivity : AppCompatActivity(), View.OnClickListener {
 
     private lateinit var binding: ActivityProfileBinding
 
@@ -24,6 +31,8 @@ class ProfileActivity : AppCompatActivity() {
         setToolbar()
 
         setProfileData()
+
+        setInitOnClick()
     }
 
     private fun setToolbar() {
@@ -45,7 +54,42 @@ class ProfileActivity : AppCompatActivity() {
                 .into(imgProfilePhoto)
 
             tvProfileName.text = getString(R.string.textProfileName)
-            tvProfileEmail.text = getString(R.string.textProfileEmail)
+            tvProfileEmail.apply {
+                text = getString(R.string.textProfileEmail)
+                setTextColor(ContextCompat.getColor(this@ProfileActivity, R.color.teal_200))
+            }
+        }
+    }
+
+    private fun setInitOnClick() {
+        binding.apply {
+            tvProfileEmail.setOnClickListener(this@ProfileActivity)
+        }
+    }
+
+    private fun developerEmail() {
+        binding.apply {
+            val email = "yumtaufikhidayat@gmail.com"
+            tvProfileEmail.makeLinks(Pair(email, View.OnClickListener {
+                try {
+                    val intentEmail = Intent(
+                        Intent.ACTION_SENDTO,
+                        Uri.fromParts("mailto", email, null)
+                    ).apply {
+                        putExtra(Intent.EXTRA_EMAIL, email)
+                        putExtra(Intent.EXTRA_SUBJECT, "")
+                        putExtra(Intent.EXTRA_TEXT, "")
+                    }
+                    startActivity(Intent.createChooser(intentEmail, "Send email:"))
+                } catch (e: Exception) {
+                    Toast.makeText(
+                        this@ProfileActivity,
+                        "Silakan install aplikasi email terlebih dulu",
+                        Toast.LENGTH_SHORT
+                    ).show()
+                    Log.e("errorEmail", "developerEmail: ${e.localizedMessage}")
+                }
+            }))
         }
     }
 
@@ -54,5 +98,11 @@ class ProfileActivity : AppCompatActivity() {
             android.R.id.home -> onBackPressed()
         }
         return super.onOptionsItemSelected(item)
+    }
+
+    override fun onClick(v: View?) {
+        when (v?.id) {
+            R.id.tvProfileEmail -> developerEmail()
+        }
     }
 }
