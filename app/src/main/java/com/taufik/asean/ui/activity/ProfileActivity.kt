@@ -5,6 +5,7 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.util.Log
+import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
@@ -16,6 +17,7 @@ import com.bumptech.glide.request.RequestOptions
 import com.bumptech.glide.request.target.Target
 import com.taufik.asean.R
 import com.taufik.asean.databinding.ActivityProfileBinding
+import com.taufik.asean.utils.Utils.githubUrl
 import com.taufik.asean.utils.Utils.makeLinks
 
 
@@ -127,11 +129,10 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
 
     private fun developerGithub() {
         binding.apply {
-            val githubUrl = "https://github.com/yumtaufikhidayat"
             tvProfileGithub.makeLinks(Pair(githubUrl, View.OnClickListener {
                 try {
                     val intentLinkedIn = Intent(Intent.ACTION_VIEW, Uri.parse(githubUrl))
-                    startActivity(Intent.createChooser(intentLinkedIn, "Open with:"))
+                    startActivity(Intent.createChooser(intentLinkedIn, "Buka dengan"))
                 } catch (e: Exception) {
                     Toast.makeText(this@ProfileActivity,
                         "Silakan install aplikasi browser terlebih dulu",
@@ -143,9 +144,27 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
         }
     }
 
+    private fun shareDeveloperProfile() {
+        try {
+            val body = "Visit this awesome user \n$githubUrl"
+            val shareIntent = Intent(Intent.ACTION_SEND)
+            shareIntent.type = "text/plain"
+            shareIntent.putExtra(Intent.EXTRA_TEXT, body)
+            startActivity(Intent.createChooser(shareIntent, "Bagikan dengan"))
+        } catch (e: Exception) {
+            Log.e("shareFailed", "onOptionsItemSelected: ${e.localizedMessage}")
+        }
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_profile, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             android.R.id.home -> onBackPressed()
+            R.id.action_share -> shareDeveloperProfile()
         }
         return super.onOptionsItemSelected(item)
     }
