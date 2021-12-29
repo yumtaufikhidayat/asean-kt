@@ -12,11 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Asean">
         <activity
+            android:name=".ui.activity.MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.activity.ProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.activity.MainActivity"
-            android:exported="true">
+            android:name=".ui.activity.SplashscreenActivity"
+            android:exported="true"
+            android:theme="@style/SplashscreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
