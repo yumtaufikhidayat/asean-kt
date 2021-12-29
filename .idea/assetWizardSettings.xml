@@ -327,9 +327,10 @@
                         </option>
                         <option name="values">
                           <map>
+                            <entry key="assetSourceType" value="FILE" />
                             <entry key="color" value="ffffff" />
-                            <entry key="outputName" value="ic_outline_office" />
-                            <entry key="sourceFile" value="$USER_HOME$/Downloads/Dicoding/Asean/linkedin.svg" />
+                            <entry key="outputName" value="ic_github_big_logo" />
+                            <entry key="sourceFile" value="$USER_HOME$/Downloads/Dicoding/Asean/github_big_logo.svg" />
                           </map>
                         </option>
                       </PersistentState>

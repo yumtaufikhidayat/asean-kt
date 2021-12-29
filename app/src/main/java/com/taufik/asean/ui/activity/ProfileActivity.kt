@@ -65,6 +65,11 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
                 text = getString(R.string.textLinkedIn)
                 setTextColor(ContextCompat.getColor(this@ProfileActivity, R.color.teal_200))
             }
+
+            tvProfileGithub.apply {
+                text = getString(R.string.textGithub)
+                setTextColor(ContextCompat.getColor(this@ProfileActivity, R.color.teal_200))
+            }
         }
     }
 
@@ -72,6 +77,7 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
         binding.apply {
             tvProfileEmail.setOnClickListener(this@ProfileActivity)
             tvProfileLinkedIn.setOnClickListener(this@ProfileActivity)
+            tvProfileGithub.setOnClickListener(this@ProfileActivity)
         }
     }
 
@@ -119,6 +125,24 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
         }
     }
 
+    private fun developerGithub() {
+        binding.apply {
+            val githubUrl = "https://github.com/yumtaufikhidayat"
+            tvProfileGithub.makeLinks(Pair(githubUrl, View.OnClickListener {
+                try {
+                    val intentLinkedIn = Intent(Intent.ACTION_VIEW, Uri.parse(githubUrl))
+                    startActivity(Intent.createChooser(intentLinkedIn, "Open with:"))
+                } catch (e: Exception) {
+                    Toast.makeText(this@ProfileActivity,
+                        "Silakan install aplikasi browser terlebih dulu",
+                        Toast.LENGTH_SHORT
+                    ).show()
+                    Log.e("errorProject", "developerProject: ${e.localizedMessage}")
+                }
+            }))
+        }
+    }
+
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             android.R.id.home -> onBackPressed()
@@ -130,6 +154,7 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
         when (v?.id) {
             R.id.tvProfileEmail -> developerEmail()
             R.id.tvProfileLinkedIn -> developerLinkedIn()
+            R.id.tvProfileGithub -> developerGithub()
         }
     }
 }

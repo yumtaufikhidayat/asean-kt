@@ -116,4 +116,28 @@
         app:layout_constraintTop_toTopOf="@id/imgProfileLinkedIn"
         app:layout_constraintBottom_toBottomOf="@id/imgProfileLinkedIn"/>
 
+    <ImageView
+        android:id="@+id/imgProfileGithub"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:src="@drawable/ic_github_big_logo"
+        android:padding="6dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/bg_round"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintTop_toBottomOf="@id/imgProfileLinkedIn"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvProfileGithub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        tools:text="@tools:sample/cities"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@id/imgProfileGithub"
+        app:layout_constraintTop_toTopOf="@id/imgProfileGithub"
+        app:layout_constraintBottom_toBottomOf="@id/imgProfileGithub"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
