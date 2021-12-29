@@ -2,6 +2,8 @@ package com.taufik.asean.ui.activity
 
 import android.annotation.SuppressLint
 import android.content.Intent
+import android.content.pm.PackageInfo
+import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Bundle
 import android.util.Log
@@ -39,8 +41,9 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
 
     private fun setToolbar() {
         supportActionBar?.apply {
-            title = "Profil"
+            title = ""
             setDisplayHomeAsUpEnabled(true)
+            elevation = 0F
         }
     }
 
@@ -72,6 +75,8 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
                 text = getString(R.string.textGithub)
                 setTextColor(ContextCompat.getColor(this@ProfileActivity, R.color.teal_200))
             }
+
+            setAppVersion()
         }
     }
 
@@ -153,6 +158,18 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
             startActivity(Intent.createChooser(shareIntent, "Bagikan dengan"))
         } catch (e: Exception) {
             Log.e("shareFailed", "onOptionsItemSelected: ${e.localizedMessage}")
+        }
+    }
+
+    private fun setAppVersion() {
+        binding.apply {
+            try {
+                val pInfo: PackageInfo = packageManager.getPackageInfo(packageName, 0)
+                val appVersion = pInfo.versionName
+                tvAppVersion.text = String.format(getString(R.string.textAppVersion) + " " + appVersion)
+            } catch (e: PackageManager.NameNotFoundException) {
+                e.printStackTrace()
+            }
         }
     }
 
