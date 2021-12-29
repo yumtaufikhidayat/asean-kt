@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Asean</string>
     <string name="textProfileName">Taufik Hidayat</string>
-    <string name="textProfileEmail">yumtaufikhidayat@gmail.com</string>
+    <string name="textJobPosition">Android Developer</string>
+    <string name="textEmail">yumtaufikhidayat@gmail.com</string>
+    <string name="textOfficeName">PT KB Finansia Multi Finance</string>
+    <string name="textLinkedIn">https://linkedin.com/in/taufik-hidayat</string>
 </resources>

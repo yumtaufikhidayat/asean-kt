@@ -54,8 +54,15 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
                 .into(imgProfilePhoto)
 
             tvProfileName.text = getString(R.string.textProfileName)
+            tvProfileJobPosition.text = getString(R.string.textJobPosition)
             tvProfileEmail.apply {
-                text = getString(R.string.textProfileEmail)
+                text = getString(R.string.textEmail)
+                setTextColor(ContextCompat.getColor(this@ProfileActivity, R.color.teal_200))
+            }
+
+            tvProfileOffice.text = getString(R.string.textOfficeName)
+            tvProfileLinkedIn.apply {
+                text = getString(R.string.textLinkedIn)
                 setTextColor(ContextCompat.getColor(this@ProfileActivity, R.color.teal_200))
             }
         }
@@ -64,6 +71,7 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
     private fun setInitOnClick() {
         binding.apply {
             tvProfileEmail.setOnClickListener(this@ProfileActivity)
+            tvProfileLinkedIn.setOnClickListener(this@ProfileActivity)
         }
     }
 
@@ -93,6 +101,24 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
         }
     }
 
+    private fun developerLinkedIn() {
+        binding.apply {
+            val linkedInUrl = "https://linkedin.com/in/taufik-hidayat"
+            tvProfileLinkedIn.makeLinks(Pair(linkedInUrl, View.OnClickListener {
+                try {
+                    val intentLinkedIn = Intent(Intent.ACTION_VIEW, Uri.parse(linkedInUrl))
+                    startActivity(Intent.createChooser(intentLinkedIn, "Open with:"))
+                } catch (e: Exception) {
+                    Toast.makeText(this@ProfileActivity,
+                        "Silakan install aplikasi browser terlebih dulu",
+                        Toast.LENGTH_SHORT
+                    ).show()
+                    Log.e("errorProject", "developerProject: ${e.localizedMessage}")
+                }
+            }))
+        }
+    }
+
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             android.R.id.home -> onBackPressed()
@@ -103,6 +129,7 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View?) {
         when (v?.id) {
             R.id.tvProfileEmail -> developerEmail()
+            R.id.tvProfileLinkedIn -> developerLinkedIn()
         }
     }
 }
