@@ -16,7 +16,7 @@ import com.bumptech.glide.request.RequestOptions
 import com.bumptech.glide.request.target.Target
 import com.taufik.asean.R
 import com.taufik.asean.databinding.ActivityProfileBinding
-import com.taufik.asean.utils.Utils.Companion.makeLinks
+import com.taufik.asean.utils.Utils.makeLinks
 
 
 class ProfileActivity : AppCompatActivity(), View.OnClickListener {
