@@ -7,4 +7,5 @@
     <string name="textLinkedIn">https://linkedin.com/in/taufik-hidayat</string>
     <string name="textGithub">https://github.com/yumtaufikhidayat</string>
     <string name="textAppVersion">Versi </string>
+    <string name="textSummary">Ringkasan</string>
 </resources>

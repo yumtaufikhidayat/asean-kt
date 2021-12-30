@@ -317,7 +317,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:$USER_HOME$/Library/Android/sdk/icons/material/materialiconsoutlined/android/outline_android_24.xml" />
+                                      <entry key="url" value="file:$USER_HOME$/Library/Android/sdk/icons/material/materialiconsoutlined/landscape/outline_landscape_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -328,7 +328,7 @@
                         <option name="values">
                           <map>
                             <entry key="color" value="ffffff" />
-                            <entry key="outputName" value="ic_outline_android" />
+                            <entry key="outputName" value="ic_outline_area" />
                             <entry key="sourceFile" value="$USER_HOME$/Downloads/Dicoding/Asean/github_big_logo.svg" />
                           </map>
                         </option>

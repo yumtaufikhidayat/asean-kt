@@ -28,6 +28,19 @@ object CountriesData {
         "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_Cambodia.svg/2560px-Flag_of_Cambodia.svg.png"
     )
 
+    private val countryInternationalName = arrayOf(
+        "Republik Indonesia",
+        "Kingdom of Thailand",
+        "Brunei Darussalam",
+        "Socialist Republic Of Vietnam",
+        "Malaysia",
+        "Lao People's Democratic Republic",
+        "Republic of Singapore",
+        "Republic of the Union of Myanmar",
+        "Republic of the Philippines",
+        "Kingdom of Cambodia",
+    )
+
     private val countryDescriptions = arrayOf(
         "Negara kepulauan dengan total penduduk sekitar 272.229.372 jiwa (per Juni 2021) ini memiliki wilayah yang ada di antara benua Asia dan Australia. Posisi geografis yang berada sebagai titik silang perekonomian dunia ini pun sangat berpengaruh terhadap aktivitas perdagangan Indonesia. Menelisik sejarahnya, Indonesia sempat mengalami pahitnya kolonialisme Belanda dan juga Jepang selama lebih dari 300 tahun. Setelah Jepang kalah di Perang Dunia II, Republik Indonesia akhirnya berdiri menjadi negara yang merdeka sejak 17 Agustus 1945. Setelah 76 tahun Indonesia merdeka, negara dengan ibu kota Jakarta ini dipimpin oleh Presiden Joko Widodo. Ini bukanlah kali pertama Presiden Joko Widodo menjabat sebagai kepala negara. Setelah masa jabatannya habis di tahun 2019, Joko widodo kembali memenangkan pemilihan umum di tahun yang sama. Republik dengan bentuk negara kesatuan ini memiliki ideologi Pancasila yang sekaligus menjadi pedoman bagi seluruh warganya. Berasas demokrasi, Indonesia memiliki sistem pemerintahan presidensial.",
         "Negara yang dijuluki sebagai Negeri Gajah ini adalah negara ASEAN yang tidak pernah merasakan kolonialisme bangsa Eropa. Berbatasan dengan Laos dan Kamboja, Thailand memiliki sistem pemerintahan berbentuk monarki konstitusional. Hal ini menjadikan kepala negara Thailand adalah seorang raja. Perihal urusan kenegaraan dan pemerintahan, Thailand menyerahkan pekerjaan kepada seorang Perdana Menteri. Saat ini (2021), Prayut Chan-o-cha menduduki posisi sebagai perdana menteri Thailand sejak tahun 2014 silam. Sebelum tahun 1980, para elite militer mendominasi politik di Thailand. Namun setelah dekade 1980-an, parlemen yang terpilih mulai memiliki pengaruh dalam politik di sana. Majelis Nasional yang terpilih juga mulai mengambil alih kekuasaan pemerintahan Thailand di tahun 1992. Meskipun kekuasaan militer sudah tidak lagi berpengaruh di pemerintahan, Thailand sempat dilanda kisruh akibat dua kali kudeta pada tahun 2006-2007 dan 2014.",
@@ -42,20 +55,20 @@ object CountriesData {
     )
 
     private val countryHeadGovernments = arrayOf(
-        "Presiden",
-        "Raja",
-        "Sultan",
-        "Presiden",
-        "Raja",
-        "Presiden",
-        "Presiden",
-        "Presiden",
-        "Presiden",
-        "Raja",
+        "Joko Widodo (Presiden)",
+        "Prayut Chan-o-cha (Perdana Menteri)",
+        "Sultan Hassanal Bolkiah (Raja/Perdana Menteri)",
+        "Nguyễn Xuân Phúc (Perdana Menteri)",
+        "Ismail Sabri Yakob (Perdana Menteri)",
+        "Thongloun Sisoulith (Perdana Menteri)",
+        "Lee Hsien Loong (Perdana Menteri)",
+        "Win Myint (Perdana Menteri)",
+        "Rodrigo Duterte (Presiden)",
+        "Hun Sen (Perdana Menteri)",
     )
 
     private val countryCapitals = arrayOf(
-        "DKI Jakarta",
+        "Jakarta",
         "Bangkok",
         "Bandar Sri Begawan",
         "Hanoi",
@@ -68,16 +81,16 @@ object CountriesData {
     )
 
     private val countryIndependenceDays = arrayOf(
-        "17 Agustus 1945",
-        "-",
-        "4 Januari 1979",
-        "2 September 1945",
-        "31 Agustus 1957",
-        "19 Juli 1949",
-        "9 Agustus 1965",
-        "4 Januari 1948",
-        "12 Juni 1898",
-        "9 November 1953"
+        "17 Agustus",
+        "5 Desember",
+        "23 Februari",
+        "2 September",
+        "31 Agustus",
+        "2 Desember",
+        "9 Agustus",
+        "4 Januari",
+        "12 Juni",
+        "9 November"
     )
 
     private val countryLanguages = arrayOf(
@@ -125,6 +138,7 @@ object CountriesData {
             for (position in countryNames.indices) {
                 val country = Country()
                 country.countryName = countryNames[position]
+                country.countryInternationalName = countryInternationalName[position]
                 country.countryFlag = countyFlags[position]
                 country.countryDescription = countryDescriptions[position]
                 country.countryCapital = countryCapitals[position]

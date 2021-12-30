@@ -1,5 +1,6 @@
 package com.taufik.asean.ui.adapter
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -7,6 +8,7 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.taufik.asean.data.Country
 import com.taufik.asean.databinding.ItemCountryBinding
+import com.taufik.asean.ui.activity.DetailActivity
 
 class CountryAdapter(private val listCountry: ArrayList<Country>): RecyclerView.Adapter<CountryAdapter.ViewHolder>() {
 
@@ -32,6 +34,7 @@ class CountryAdapter(private val listCountry: ArrayList<Country>): RecyclerView.
                     .into(imgItemPhoto)
 
                 tvCountryName.text = country.countryName
+                tvCountryGovSystem.text = country.countryInternationalName
                 tvCountryDesc.text = country.countryDescription
                 tvCountryGovernment.text = country.countryHeadGovernment
                 tvCountryCapital.text = country.countryCapital
@@ -39,6 +42,13 @@ class CountryAdapter(private val listCountry: ArrayList<Country>): RecyclerView.
                 tvCountryLanguage.text = country.countryLanguage
                 tvCountryCurrency.text = country.countryCurrency
                 tvCountryArea.text = country.countryArea
+
+                constraintItemCountry.setOnClickListener {
+                    val intent = Intent(itemView.context, DetailActivity::class.java).apply {
+                        putExtra(DetailActivity.EXTRA_DETAIL, country)
+                    }
+                    it.context.startActivity(intent)
+                }
             }
         }
     }

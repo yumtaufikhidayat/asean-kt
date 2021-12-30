@@ -5,9 +5,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="8dp">
+    android:layout_marginTop="2dp"
+    android:layout_marginHorizontal="8dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintItemCountry"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="?selectableItemBackground"
@@ -126,6 +128,20 @@
 
         <TextView
             android:id="@+id/tvCountryArea"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text=""
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:visibility="gone"
+            tools:text="@tools:sample/lorem/random"
+            app:layout_constraintTop_toBottomOf="@id/tvCountryName"
+            app:layout_constraintStart_toStartOf="@id/tvCountryName"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/tvCountryGovSystem"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textColor="@color/black"

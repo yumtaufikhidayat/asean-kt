@@ -60,12 +60,9 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
 
             tvProfileName.text = getString(R.string.textProfileName)
             tvProfileJobPosition.text = getString(R.string.textJobPosition)
-            tvProfileEmail.apply {
-                text = getString(R.string.textEmail)
-                setTextColor(ContextCompat.getColor(this@ProfileActivity, R.color.teal_200))
-            }
-
+            tvProfileEmail.text = getString(R.string.textEmail)
             tvProfileOffice.text = getString(R.string.textOfficeName)
+
             tvProfileLinkedIn.apply {
                 text = getString(R.string.textLinkedIn)
                 setTextColor(ContextCompat.getColor(this@ProfileActivity, R.color.teal_200))
