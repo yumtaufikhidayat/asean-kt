@@ -8,4 +8,5 @@
     <string name="textGithub">https://github.com/yumtaufikhidayat</string>
     <string name="textAppVersion">Versi </string>
     <string name="textSummary">Ringkasan</string>
+    <string name="textOpenInBrowser">Buka di Peramban</string>
 </resources>
