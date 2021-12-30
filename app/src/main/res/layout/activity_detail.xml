@@ -107,12 +107,14 @@
 
             <TextView
                 android:id="@+id/tvCountryCapital"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 tools:text="@tools:sample/cities"
                 android:textColor="@color/black"
+                android:maxLines="2"
                 app:layout_constraintStart_toEndOf="@id/imgCountryCapital"
+                app:layout_constraintEnd_toEndOf="@id/tvCountryDesc"
                 app:layout_constraintTop_toTopOf="@id/imgCountryCapital"
                 app:layout_constraintBottom_toBottomOf="@id/imgCountryCapital"/>
 
@@ -130,12 +132,14 @@
 
             <TextView
                 android:id="@+id/tvCountryHeadGov"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 tools:text="@tools:sample/cities"
                 android:textColor="@color/black"
+                android:maxLines="2"
                 app:layout_constraintStart_toEndOf="@id/imgCountryHeadGov"
+                app:layout_constraintEnd_toEndOf="@id/tvCountryDesc"
                 app:layout_constraintTop_toTopOf="@id/imgCountryHeadGov"
                 app:layout_constraintBottom_toBottomOf="@id/imgCountryHeadGov"/>
 
@@ -153,12 +157,14 @@
 
             <TextView
                 android:id="@+id/tvCountryIndependenceDay"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 tools:text="@tools:sample/cities"
                 android:textColor="@color/black"
+                android:maxLines="2"
                 app:layout_constraintStart_toEndOf="@id/imgCountryIndependenceDay"
+                app:layout_constraintEnd_toEndOf="@id/tvCountryDesc"
                 app:layout_constraintTop_toTopOf="@id/imgCountryIndependenceDay"
                 app:layout_constraintBottom_toBottomOf="@id/imgCountryIndependenceDay"/>
 
@@ -176,12 +182,14 @@
 
             <TextView
                 android:id="@+id/tvCountryLanguage"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 tools:text="@tools:sample/cities"
                 android:textColor="@color/black"
+                android:maxLines="2"
                 app:layout_constraintStart_toEndOf="@id/imgCountryLanguage"
+                app:layout_constraintEnd_toEndOf="@id/tvCountryDesc"
                 app:layout_constraintTop_toTopOf="@id/imgCountryLanguage"
                 app:layout_constraintBottom_toBottomOf="@id/imgCountryLanguage"/>
 
@@ -199,12 +207,14 @@
 
             <TextView
                 android:id="@+id/tvCountryCurrency"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 tools:text="@tools:sample/cities"
+                android:maxLines="2"
                 android:textColor="@color/black"
                 app:layout_constraintStart_toEndOf="@id/imgCountryCurrency"
+                app:layout_constraintEnd_toEndOf="@id/tvCountryDesc"
                 app:layout_constraintTop_toTopOf="@id/imgCountryCurrency"
                 app:layout_constraintBottom_toBottomOf="@id/imgCountryCurrency"/>
 
@@ -222,12 +232,14 @@
 
             <TextView
                 android:id="@+id/tvCountryLandArea"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 tools:text="@tools:sample/cities"
                 android:textColor="@color/black"
+                android:maxLines="2"
                 app:layout_constraintStart_toEndOf="@id/imgCountryArea"
+                app:layout_constraintEnd_toEndOf="@id/tvCountryDesc"
                 app:layout_constraintTop_toTopOf="@id/imgCountryArea"
                 app:layout_constraintBottom_toBottomOf="@id/imgCountryArea"/>
 
