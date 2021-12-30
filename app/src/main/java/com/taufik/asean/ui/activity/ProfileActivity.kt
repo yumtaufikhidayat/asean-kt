@@ -166,7 +166,7 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
             try {
                 val pInfo: PackageInfo = packageManager.getPackageInfo(packageName, 0)
                 val appVersion = pInfo.versionName
-                tvAppVersion.text = String.format(getString(R.string.textAppVersion) + " " + appVersion)
+                tvVersion.text = String.format(getString(R.string.textAppVersion) + " " + appVersion)
             } catch (e: PackageManager.NameNotFoundException) {
                 e.printStackTrace()
             }
