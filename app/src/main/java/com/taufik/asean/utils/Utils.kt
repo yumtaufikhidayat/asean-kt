@@ -7,7 +7,9 @@ import android.view.View
 import android.widget.TextView
 
 object Utils {
+
     const val githubUrl = "https://github.com/yumtaufikhidayat"
+
     fun TextView.makeLinks(vararg links: Pair<String, View.OnClickListener>){
         val spannableString = SpannableString(this.text)
         var startIndexOfLink = -1
