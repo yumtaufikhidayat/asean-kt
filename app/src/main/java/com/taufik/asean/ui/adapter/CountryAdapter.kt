@@ -41,7 +41,7 @@ class CountryAdapter(private val listCountry: ArrayList<Country>): RecyclerView.
                 tvCountryIndependenceDay.text = country.countryIndependenceDay
                 tvCountryLanguage.text = country.countryLanguage
                 tvCountryCurrency.text = country.countryCurrency
-                tvCountryArea.text = country.countryArea
+                tvCountryArea.text = country.countryLandArea
 
                 constraintItemCountry.setOnClickListener {
                     val intent = Intent(itemView.context, DetailActivity::class.java).apply {

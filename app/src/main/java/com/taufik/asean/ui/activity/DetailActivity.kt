@@ -70,7 +70,7 @@ class DetailActivity : AppCompatActivity() {
             tvCountryIndependenceDay.text = country.countryIndependenceDay
             tvCountryLanguage.text = country.countryLanguage
             tvCountryCurrency.text = country.countryCurrency
-            tvCountryLandArea.text = country.countryArea
+            tvCountryLandArea.text = country.countryLandArea
         }
     }
 

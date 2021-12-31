@@ -146,7 +146,7 @@ object CountriesData {
                 country.countryIndependenceDay = countryIndependenceDays[position]
                 country.countryLanguage = countryLanguages[position]
                 country.countryCurrency = countryCurrencies[position]
-                country.countryArea = countryAreas[position]
+                country.countryLandArea = countryAreas[position]
                 list.add(country)
             }
 

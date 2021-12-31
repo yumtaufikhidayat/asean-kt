@@ -14,5 +14,5 @@ data class Country(
     var countryIndependenceDay: String = "",
     var countryLanguage: String = "",
     var countryCurrency: String = "",
-    var countryArea: String = ""
+    var countryLandArea: String = ""
 ): Parcelable
