@@ -57,7 +57,7 @@ object CountriesData {
     private val countryHeadGovernments = arrayOf(
         "Joko Widodo (Presiden)",
         "Prayut Chan-o-cha (Perdana Menteri)",
-        "Sultan Hassanal Bolkiah (Raja/Perdana Menteri)",
+        "Sultan Hassanal Bolkiah (Raja/Sultan/Perdana Menteri)",
         "Nguyễn Xuân Phúc (Perdana Menteri)",
         "Ismail Sabri Yakob (Perdana Menteri)",
         "Thongloun Sisoulith (Perdana Menteri)",
