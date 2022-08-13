@@ -34,12 +34,13 @@ class MainActivity : AppCompatActivity() {
 
     private fun showData() {
         listCountries.addAll(CountriesData.listData)
-        countryAdapter = CountryAdapter(listCountries)
+        countryAdapter = CountryAdapter()
         binding.apply {
             with(rvMain) {
                 layoutManager = LinearLayoutManager(this@MainActivity)
                 adapter = countryAdapter
             }
+            countryAdapter.submitList(listCountries)
         }
     }
 
