@@ -3,6 +3,8 @@ package com.taufik.asean.ui.adapter
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.recyclerview.widget.DiffUtil
+import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
@@ -10,7 +12,8 @@ import com.taufik.asean.data.Country
 import com.taufik.asean.databinding.ItemCountryBinding
 import com.taufik.asean.ui.activity.DetailActivity
 
-class CountryAdapter(private val listCountry: ArrayList<Country>): RecyclerView.Adapter<CountryAdapter.ViewHolder>() {
+class CountryAdapter(private val listCountry: ArrayList<Country>) :
+    ListAdapter<Country, CountryAdapter.ViewHolder>(countryDiffCallback) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = ItemCountryBinding.inflate(LayoutInflater.from(parent.context), parent, false)
@@ -20,8 +23,6 @@ class CountryAdapter(private val listCountry: ArrayList<Country>): RecyclerView.
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.bind(listCountry[position])
     }
-
-    override fun getItemCount(): Int = listCountry.size
 
     inner class ViewHolder(private val binding: ItemCountryBinding) :
         RecyclerView.ViewHolder(binding.root) {
@@ -50,6 +51,14 @@ class CountryAdapter(private val listCountry: ArrayList<Country>): RecyclerView.
                     it.context.startActivity(intent)
                 }
             }
+        }
+    }
+
+    companion object {
+        val countryDiffCallback = object : DiffUtil.ItemCallback<Country>() {
+            override fun areItemsTheSame(oldItem: Country, newItem: Country): Boolean = oldItem.countryName == newItem.countryName
+
+            override fun areContentsTheSame(oldItem: Country, newItem: Country): Boolean = oldItem == newItem
         }
     }
 }

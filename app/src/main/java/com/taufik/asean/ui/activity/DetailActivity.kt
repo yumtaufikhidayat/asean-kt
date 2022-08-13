@@ -18,22 +18,18 @@ import com.taufik.asean.databinding.ActivityDetailBinding
 
 class DetailActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityDetailBinding
-    private lateinit var country: Country
-
-    companion object {
-        const val EXTRA_DETAIL = "com.taufik.asean.ui.activity.EXTRA_DETAIL"
+    private val binding by lazy {
+        ActivityDetailBinding.inflate(layoutInflater)
     }
+
+    private lateinit var country: Country
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         setParcelable()
-
         setToolbar()
-
         setData()
     }
 
@@ -99,5 +95,9 @@ class DetailActivity : AppCompatActivity() {
             R.id.action_open_in_browser -> openInBrowser()
         }
         return super.onOptionsItemSelected(item)
+    }
+
+    companion object {
+        const val EXTRA_DETAIL = "com.taufik.asean.ui.activity.EXTRA_DETAIL"
     }
 }
