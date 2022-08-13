@@ -24,9 +24,7 @@ class CountryAdapter : ListAdapter<Country, CountryAdapter.ViewHolder>(countryDi
         holder.bind(getItem(position))
     }
 
-    inner class ViewHolder(private val binding: ItemCountryBinding) :
-        RecyclerView.ViewHolder(binding.root) {
-
+    inner class ViewHolder(private val binding: ItemCountryBinding) : RecyclerView.ViewHolder(binding.root) {
         fun bind(country: Country) {
             binding.apply {
                 Glide.with(itemView.context)
@@ -58,7 +56,6 @@ class CountryAdapter : ListAdapter<Country, CountryAdapter.ViewHolder>(countryDi
     companion object {
         val countryDiffCallback = object : DiffUtil.ItemCallback<Country>() {
             override fun areItemsTheSame(oldItem: Country, newItem: Country): Boolean = oldItem.countryName == newItem.countryName
-
             override fun areContentsTheSame(oldItem: Country, newItem: Country): Boolean = oldItem == newItem
         }
     }
