@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
+import com.taufik.asean.R
 import com.taufik.asean.data.Country
 import com.taufik.asean.databinding.ItemCountryBinding
 import com.taufik.asean.ui.activity.DetailActivity
@@ -30,6 +31,7 @@ class CountryAdapter : ListAdapter<Country, CountryAdapter.ViewHolder>(countryDi
             binding.apply {
                 Glide.with(itemView.context)
                     .load(country.countryFlag)
+                    .placeholder(R.color.purple_700)
                     .apply(RequestOptions().override(55, 55))
                     .into(imgItemPhoto)
 
