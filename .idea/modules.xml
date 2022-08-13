@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Asean.iml" filepath="$PROJECT_DIR$/.idea/modules/Asean.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Asean.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Asean.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Asean.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Asean.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Asean.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Asean.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Asean.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Asean.app.unitTest.iml" />
     </modules>
   </component>
 </project>
