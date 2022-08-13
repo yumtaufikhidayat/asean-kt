@@ -12,8 +12,7 @@ import com.taufik.asean.data.Country
 import com.taufik.asean.databinding.ItemCountryBinding
 import com.taufik.asean.ui.activity.DetailActivity
 
-class CountryAdapter(private val listCountry: ArrayList<Country>) :
-    ListAdapter<Country, CountryAdapter.ViewHolder>(countryDiffCallback) {
+class CountryAdapter : ListAdapter<Country, CountryAdapter.ViewHolder>(countryDiffCallback) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = ItemCountryBinding.inflate(LayoutInflater.from(parent.context), parent, false)
@@ -21,7 +20,7 @@ class CountryAdapter(private val listCountry: ArrayList<Country>) :
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.bind(listCountry[position])
+        holder.bind(getItem(position))
     }
 
     inner class ViewHolder(private val binding: ItemCountryBinding) :
