@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
-    },
-    {
         "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/layout_activity_splashscreen.xml.flat",
         "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/layout/activity_splashscreen.xml"
     },
@@ -130,6 +126,10 @@
     {
         "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/drawable_ic_outline_browser.xml.flat",
         "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/drawable/ic_outline_browser.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
     },
     {
         "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/drawable_bg_round_orange.xml.flat",

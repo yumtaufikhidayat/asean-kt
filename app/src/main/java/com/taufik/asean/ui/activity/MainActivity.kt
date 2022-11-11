@@ -14,13 +14,12 @@ import com.taufik.asean.ui.adapter.CountryAdapter
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMainBinding
-    private lateinit var countryAdapter: CountryAdapter
+    private val binding by lazy { ActivityMainBinding.inflate(layoutInflater) }
+    private val countryAdapter by lazy { CountryAdapter() }
     private var listCountries: ArrayList<Country> = arrayListOf()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         setActionBarTitle()
@@ -33,12 +32,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun showData() {
         listCountries.addAll(CountriesData.listData)
-        countryAdapter = CountryAdapter()
-        binding.apply {
-            with(rvMain) {
-                layoutManager = LinearLayoutManager(this@MainActivity)
-                adapter = countryAdapter
-            }
+        binding.rvMain.apply {
+            layoutManager = LinearLayoutManager(this@MainActivity)
+            adapter = countryAdapter
             countryAdapter.submitList(listCountries)
         }
     }

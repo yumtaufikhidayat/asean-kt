@@ -4,52 +4,52 @@ ADDED from /home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/m
 INJECTED from /home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/AndroidManifest.xml:2:1-35:12
 INJECTED from /home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/AndroidManifest.xml:2:1-35:12
 INJECTED from /home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/AndroidManifest.xml:2:1-35:12
-MERGED from [androidx.databinding:viewbinding:7.1.1] /home/taufik/.gradle/caches/transforms-3/5b8ea16a5354bdf2e0e51cbf125f15a8/transformed/jetified-viewbinding-7.1.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core-ktx:1.7.0] /home/taufik/.gradle/caches/transforms-3/935cf952ef1f0ff9ff3f1bbec75d86ca/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.material:material:1.4.0] /home/taufik/.gradle/caches/transforms-3/a7d4a96b9735d1058b14d004f9e54243/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /home/taufik/.gradle/caches/transforms-3/11c4660c98b792dbf17e7f137c783ec5/transformed/constraintlayout-2.1.2/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.4.0] /home/taufik/.gradle/caches/transforms-3/2c52b058ed43c2cb28ae3102cfdf2049/transformed/appcompat-1.4.0/AndroidManifest.xml:17:1-24:12
-MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/taufik/.gradle/caches/transforms-3/dd1d73c1fdd22ea97964739da2d70998/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:2:1-11:12
-MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/taufik/.gradle/caches/transforms-3/2bc17c011890526476e52ee65566ff70/transformed/jetified-glide-4.12.0/AndroidManifest.xml:2:1-12:12
-MERGED from [androidx.core:core-splashscreen:1.0.0-alpha02] /home/taufik/.gradle/caches/transforms-3/d23d29d46925e9d716a85684133d185a/transformed/jetified-core-splashscreen-1.0.0-alpha02/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/taufik/.gradle/caches/transforms-3/c2a35146f906734050f3d75725cc87d2/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.3.6] /home/taufik/.gradle/caches/transforms-3/f21721e2890bba6cc978d6f2e8fb0999/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.2.4] /home/taufik/.gradle/caches/transforms-3/6fd4c21ab7dd380d8603d3c8116afbd3/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.4.0] /home/taufik/.gradle/caches/transforms-3/27f512bca0ea2982f230bdcff501750d/transformed/jetified-appcompat-resources-1.4.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/taufik/.gradle/caches/transforms-3/e730cc98819d857f774d1eb17d85b109/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/taufik/.gradle/caches/transforms-3/bb862ab321a650e385e4475fdd6fc350/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.emoji2:emoji2:1.0.0] /home/taufik/.gradle/caches/transforms-3/4566c7fccb0842fac76b02b6fa7945eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/taufik/.gradle/caches/transforms-3/b2cfdd724f1f1d2ff16b1d71576b711c/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/taufik/.gradle/caches/transforms-3/0c47c7bfbc1b509109e8ce5e2f184670/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.2.0] /home/taufik/.gradle/caches/transforms-3/ff6e5f576867f971734dc27aa0a2be8e/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/taufik/.gradle/caches/transforms-3/2d81262f9bc7481d3621204bcada33da/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/taufik/.gradle/caches/transforms-3/c3b80d8b62603bcf51255a7e8a3e5d76/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/taufik/.gradle/caches/transforms-3/5c8390209dbe2f750a975dab835911e8/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/taufik/.gradle/caches/transforms-3/55e99c8be62b2ed75108edae37cb87a6/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /home/taufik/.gradle/caches/transforms-3/1a8e0825bd62b50f091611020dd7907e/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/taufik/.gradle/caches/transforms-3/234494e7a5f8d12a2a75c235749f3742/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] /home/taufik/.gradle/caches/transforms-3/980871c8990a950c6f3d8646d038fd3a/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.7.0] /home/taufik/.gradle/caches/transforms-3/05c865d2d43be6a2a356f92ad571ba48/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/taufik/.gradle/caches/transforms-3/367b4e871fb239bdaa3a2a2db5210614/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/taufik/.gradle/caches/transforms-3/0f45f4888a7bc7969879c8e026409343/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.1.0] /home/taufik/.gradle/caches/transforms-3/d9ea0e8ea7686de7af5692407503a975/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/taufik/.gradle/caches/transforms-3/52b9f52db475e9f6e4953cea75724256/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] /home/taufik/.gradle/caches/transforms-3/b3873e58b76d6317043c5bcd53187340/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/taufik/.gradle/caches/transforms-3/0e0928d7a33e3683d55ec9782b5363b6/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.exifinterface:exifinterface:1.2.0] /home/taufik/.gradle/caches/transforms-3/3065f1f02041b828a269182cbaffa15b/transformed/exifinterface-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/taufik/.gradle/caches/transforms-3/cafb349206491eae11b46688599ad683/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/taufik/.gradle/caches/transforms-3/87ae87037303a87cced9bafbe2f113b5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
-MERGED from [androidx.startup:startup-runtime:1.0.0] /home/taufik/.gradle/caches/transforms-3/366cf7c6440b2fa00b515bd0d95f59c1/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] /home/taufik/.gradle/caches/transforms-3/2c7f077dc8b20a472c28c0365fb92907/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/taufik/.gradle/caches/transforms-3/c71eb99f832f03dfdf7d9fb70adc3ef6/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/taufik/.gradle/caches/transforms-3/1a9f38186e531fe1feae6027b766025a/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/taufik/.gradle/caches/transforms-3/a975e9878c6c3fc3ecb5c3e15cc432f5/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/taufik/.gradle/caches/transforms-3/808183ff479a1e0bbd8c551ff0f3fecd/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/taufik/.gradle/caches/transforms-3/e1a0eae06622bbc2ec028511639154cd/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/taufik/.gradle/caches/transforms-3/e9a7842192c2e1d46a06db713d1c06ae/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/taufik/.gradle/caches/transforms-3/569b1d492d557f8546aad3dec7dfa0a8/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /home/taufik/.gradle/caches/transforms-3/4c6b73875430cf96ea50f48064197b3e/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/taufik/.gradle/caches/transforms-3/bf23b79a85b6c9d15b686d1fa2bbabe0/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:viewbinding:7.1.3] /home/taufik/.gradle/caches/transforms-3/3916a637f8a84de57d33f23ab5ea5238/transformed/jetified-viewbinding-7.1.3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.7.0] /home/taufik/.gradle/caches/transforms-3/7381ae4010f9af547c1da019c57572f0/transformed/material-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/taufik/.gradle/caches/transforms-3/628fe8a6a6a548f273e25b340beb4137/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /home/taufik/.gradle/caches/transforms-3/0a6670dc26e938e3b1ee159db362ab98/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.5.1] /home/taufik/.gradle/caches/transforms-3/1611c54f79305e129c5ded6b92b836ca/transformed/appcompat-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/taufik/.gradle/caches/transforms-3/4c60e1cdaed734ce9d4c3fadb54800cf/transformed/jetified-glide-4.14.2/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/taufik/.gradle/caches/transforms-3/6efba963293978aa027a3a47bb8ec2d3/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/taufik/.gradle/caches/transforms-3/dc853e7e8699fa83b50f24b8694ec6fc/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.5.1] /home/taufik/.gradle/caches/transforms-3/7a679b66bd74e2e45bddbbd2f92bfdaf/transformed/jetified-activity-1.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/taufik/.gradle/caches/transforms-3/e917ffbf851f309a8b8ac21810d6710c/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/taufik/.gradle/caches/transforms-3/f53163e335e210e863e5b90c052fd063/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/taufik/.gradle/caches/transforms-3/fc013d338a806df097cb0393e906f993/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/taufik/.gradle/caches/transforms-3/fb974261c1160ea8842da9e58040f253/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/taufik/.gradle/caches/transforms-3/b07cf67c127ee023ee539d11ec3ab0d5/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.8.0] /home/taufik/.gradle/caches/transforms-3/401c0fa7bce2d558390ec8607befb1af/transformed/jetified-core-ktx-1.8.0/AndroidManifest.xml:2:1-9:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/taufik/.gradle/caches/transforms-3/fd183cdcc1b77853fee1217c0813e950/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.core:core-splashscreen:1.0.0] /home/taufik/.gradle/caches/transforms-3/ef53259aa49a99ea084f4b3c482e454d/transformed/jetified-core-splashscreen-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/taufik/.gradle/caches/transforms-3/6c3a3d9a4973ef2d17b3f59d4054c833/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/taufik/.gradle/caches/transforms-3/06cb48db15f4f2049eef7fdd5224ea51/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/taufik/.gradle/caches/transforms-3/31e2a70334571db220029c4ed77a964a/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/taufik/.gradle/caches/transforms-3/c891ffdc5dfb41f6962727169960d39f/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /home/taufik/.gradle/caches/transforms-3/6e4aabcafe19eb2ec2120d79ad6bed30/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/taufik/.gradle/caches/transforms-3/43acecdb1ec48f1f2335dd1e08c00c44/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/taufik/.gradle/caches/transforms-3/8d18b9e7808a15482eb290e360f24738/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/taufik/.gradle/caches/transforms-3/49a275806570dfdf4a614dd2989e4835/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/taufik/.gradle/caches/transforms-3/3042a2a545c697fe387ad7ce196db72b/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /home/taufik/.gradle/caches/transforms-3/5e6d4560256a7d7bba640644f8ac807e/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.8.0] /home/taufik/.gradle/caches/transforms-3/0157722375ab10d5306230fe0e82ebda/transformed/core-1.8.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/taufik/.gradle/caches/transforms-3/241ef860012c653675bdbb2d028f5c8b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/taufik/.gradle/caches/transforms-3/0c0a452932f669ef250c8e4bdfbc578a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/taufik/.gradle/caches/transforms-3/e165ca9d788dc95df684f35adaa49b12/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/taufik/.gradle/caches/transforms-3/2bf1242b333a91e3d7855abb889643e7/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/taufik/.gradle/caches/transforms-3/ce263994681cc07ac0bfd47a0c84d032/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /home/taufik/.gradle/caches/transforms-3/15987a2a1c098e0ac0433c8e564d47c7/transformed/jetified-gifdecoder-4.14.2/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /home/taufik/.gradle/caches/transforms-3/ff59c913d5bb54e0a8ea174794ed2b20/transformed/exifinterface-1.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/taufik/.gradle/caches/transforms-3/c6c51c59429d0b6fb5f37f671e521a8d/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/taufik/.gradle/caches/transforms-3/9cc745f948a0d0467ffa3faf633e86c0/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/taufik/.gradle/caches/transforms-3/bf50f7e6ebe8b5f4142b7dc46656da03/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/taufik/.gradle/caches/transforms-3/7704f9286c02c46f4e859e6be68a2de7/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/taufik/.gradle/caches/transforms-3/c0ffef9c186a3ddede25b59571304e60/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/taufik/.gradle/caches/transforms-3/77ea222cd1b455dc8160816338efc034/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/taufik/.gradle/caches/transforms-3/cb719a3988a72487536e25cd721a80a1/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/taufik/.gradle/caches/transforms-3/5c6a9bf7dd2ff9a28ccbb762979f31b7/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/taufik/.gradle/caches/transforms-3/a5d85796f4b85f923fe8c7fba05dff67/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/taufik/.gradle/caches/transforms-3/043235f89c2fe6f507bc69ad3a1d9d14/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/taufik/.gradle/caches/transforms-3/a77d428756841b0e12430d41fc506a8e/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 INJECTED from /home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/AndroidManifest.xml:2:1-35:12
 INJECTED from /home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/AndroidManifest.xml:2:1-35:12
 INJECTED from /home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/AndroidManifest.xml:2:1-35:12
@@ -73,28 +73,28 @@ ADDED from /home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/m
 		ADDED from /home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/AndroidManifest.xml:5:22-64
 application
 ADDED from /home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/AndroidManifest.xml:7:5-33:19
-MERGED from [com.google.android.material:material:1.4.0] /home/taufik/.gradle/caches/transforms-3/a7d4a96b9735d1058b14d004f9e54243/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.4.0] /home/taufik/.gradle/caches/transforms-3/a7d4a96b9735d1058b14d004f9e54243/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /home/taufik/.gradle/caches/transforms-3/11c4660c98b792dbf17e7f137c783ec5/transformed/constraintlayout-2.1.2/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /home/taufik/.gradle/caches/transforms-3/11c4660c98b792dbf17e7f137c783ec5/transformed/constraintlayout-2.1.2/AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/taufik/.gradle/caches/transforms-3/dd1d73c1fdd22ea97964739da2d70998/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/taufik/.gradle/caches/transforms-3/dd1d73c1fdd22ea97964739da2d70998/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/taufik/.gradle/caches/transforms-3/2bc17c011890526476e52ee65566ff70/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/taufik/.gradle/caches/transforms-3/2bc17c011890526476e52ee65566ff70/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
-MERGED from [androidx.emoji2:emoji2:1.0.0] /home/taufik/.gradle/caches/transforms-3/4566c7fccb0842fac76b02b6fa7945eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.emoji2:emoji2:1.0.0] /home/taufik/.gradle/caches/transforms-3/4566c7fccb0842fac76b02b6fa7945eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.core:core:1.7.0] /home/taufik/.gradle/caches/transforms-3/05c865d2d43be6a2a356f92ad571ba48/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.7.0] /home/taufik/.gradle/caches/transforms-3/05c865d2d43be6a2a356f92ad571ba48/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/taufik/.gradle/caches/transforms-3/0e0928d7a33e3683d55ec9782b5363b6/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/taufik/.gradle/caches/transforms-3/0e0928d7a33e3683d55ec9782b5363b6/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/taufik/.gradle/caches/transforms-3/cafb349206491eae11b46688599ad683/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/taufik/.gradle/caches/transforms-3/cafb349206491eae11b46688599ad683/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/taufik/.gradle/caches/transforms-3/87ae87037303a87cced9bafbe2f113b5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/taufik/.gradle/caches/transforms-3/87ae87037303a87cced9bafbe2f113b5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.startup:startup-runtime:1.0.0] /home/taufik/.gradle/caches/transforms-3/366cf7c6440b2fa00b515bd0d95f59c1/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.0.0] /home/taufik/.gradle/caches/transforms-3/366cf7c6440b2fa00b515bd0d95f59c1/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.android.material:material:1.7.0] /home/taufik/.gradle/caches/transforms-3/7381ae4010f9af547c1da019c57572f0/transformed/material-1.7.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.7.0] /home/taufik/.gradle/caches/transforms-3/7381ae4010f9af547c1da019c57572f0/transformed/material-1.7.0/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/taufik/.gradle/caches/transforms-3/628fe8a6a6a548f273e25b340beb4137/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/taufik/.gradle/caches/transforms-3/628fe8a6a6a548f273e25b340beb4137/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/taufik/.gradle/caches/transforms-3/4c60e1cdaed734ce9d4c3fadb54800cf/transformed/jetified-glide-4.14.2/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/taufik/.gradle/caches/transforms-3/4c60e1cdaed734ce9d4c3fadb54800cf/transformed/jetified-glide-4.14.2/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/taufik/.gradle/caches/transforms-3/fd183cdcc1b77853fee1217c0813e950/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/taufik/.gradle/caches/transforms-3/fd183cdcc1b77853fee1217c0813e950/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/taufik/.gradle/caches/transforms-3/06cb48db15f4f2049eef7fdd5224ea51/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/taufik/.gradle/caches/transforms-3/06cb48db15f4f2049eef7fdd5224ea51/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.8.0] /home/taufik/.gradle/caches/transforms-3/0157722375ab10d5306230fe0e82ebda/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] /home/taufik/.gradle/caches/transforms-3/0157722375ab10d5306230fe0e82ebda/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/taufik/.gradle/caches/transforms-3/0c0a452932f669ef250c8e4bdfbc578a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/taufik/.gradle/caches/transforms-3/0c0a452932f669ef250c8e4bdfbc578a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /home/taufik/.gradle/caches/transforms-3/15987a2a1c098e0ac0433c8e564d47c7/transformed/jetified-gifdecoder-4.14.2/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /home/taufik/.gradle/caches/transforms-3/15987a2a1c098e0ac0433c8e564d47c7/transformed/jetified-gifdecoder-4.14.2/AndroidManifest.xml:9:5-20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/taufik/.gradle/caches/transforms-3/c6c51c59429d0b6fb5f37f671e521a8d/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/taufik/.gradle/caches/transforms-3/c6c51c59429d0b6fb5f37f671e521a8d/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/taufik/.gradle/caches/transforms-3/bf50f7e6ebe8b5f4142b7dc46656da03/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/taufik/.gradle/caches/transforms-3/bf50f7e6ebe8b5f4142b7dc46656da03/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.7.0] /home/taufik/.gradle/caches/transforms-3/05c865d2d43be6a2a356f92ad571ba48/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.8.0] /home/taufik/.gradle/caches/transforms-3/0157722375ab10d5306230fe0e82ebda/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
 		ADDED from /home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
@@ -147,98 +147,98 @@ uses-sdk
 INJECTED from /home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/AndroidManifest.xml
 INJECTED from /home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/AndroidManifest.xml
-MERGED from [androidx.databinding:viewbinding:7.1.1] /home/taufik/.gradle/caches/transforms-3/5b8ea16a5354bdf2e0e51cbf125f15a8/transformed/jetified-viewbinding-7.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.databinding:viewbinding:7.1.1] /home/taufik/.gradle/caches/transforms-3/5b8ea16a5354bdf2e0e51cbf125f15a8/transformed/jetified-viewbinding-7.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-ktx:1.7.0] /home/taufik/.gradle/caches/transforms-3/935cf952ef1f0ff9ff3f1bbec75d86ca/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.7.0] /home/taufik/.gradle/caches/transforms-3/935cf952ef1f0ff9ff3f1bbec75d86ca/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.material:material:1.4.0] /home/taufik/.gradle/caches/transforms-3/a7d4a96b9735d1058b14d004f9e54243/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.4.0] /home/taufik/.gradle/caches/transforms-3/a7d4a96b9735d1058b14d004f9e54243/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /home/taufik/.gradle/caches/transforms-3/11c4660c98b792dbf17e7f137c783ec5/transformed/constraintlayout-2.1.2/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /home/taufik/.gradle/caches/transforms-3/11c4660c98b792dbf17e7f137c783ec5/transformed/constraintlayout-2.1.2/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat:1.4.0] /home/taufik/.gradle/caches/transforms-3/2c52b058ed43c2cb28ae3102cfdf2049/transformed/appcompat-1.4.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.4.0] /home/taufik/.gradle/caches/transforms-3/2c52b058ed43c2cb28ae3102cfdf2049/transformed/appcompat-1.4.0/AndroidManifest.xml:20:5-22:41
-MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/taufik/.gradle/caches/transforms-3/dd1d73c1fdd22ea97964739da2d70998/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/taufik/.gradle/caches/transforms-3/dd1d73c1fdd22ea97964739da2d70998/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/taufik/.gradle/caches/transforms-3/2bc17c011890526476e52ee65566ff70/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/taufik/.gradle/caches/transforms-3/2bc17c011890526476e52ee65566ff70/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
-MERGED from [androidx.core:core-splashscreen:1.0.0-alpha02] /home/taufik/.gradle/caches/transforms-3/d23d29d46925e9d716a85684133d185a/transformed/jetified-core-splashscreen-1.0.0-alpha02/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-splashscreen:1.0.0-alpha02] /home/taufik/.gradle/caches/transforms-3/d23d29d46925e9d716a85684133d185a/transformed/jetified-core-splashscreen-1.0.0-alpha02/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/taufik/.gradle/caches/transforms-3/c2a35146f906734050f3d75725cc87d2/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/taufik/.gradle/caches/transforms-3/c2a35146f906734050f3d75725cc87d2/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] /home/taufik/.gradle/caches/transforms-3/f21721e2890bba6cc978d6f2e8fb0999/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] /home/taufik/.gradle/caches/transforms-3/f21721e2890bba6cc978d6f2e8fb0999/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.4] /home/taufik/.gradle/caches/transforms-3/6fd4c21ab7dd380d8603d3c8116afbd3/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.4] /home/taufik/.gradle/caches/transforms-3/6fd4c21ab7dd380d8603d3c8116afbd3/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.4.0] /home/taufik/.gradle/caches/transforms-3/27f512bca0ea2982f230bdcff501750d/transformed/jetified-appcompat-resources-1.4.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.4.0] /home/taufik/.gradle/caches/transforms-3/27f512bca0ea2982f230bdcff501750d/transformed/jetified-appcompat-resources-1.4.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/taufik/.gradle/caches/transforms-3/e730cc98819d857f774d1eb17d85b109/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/taufik/.gradle/caches/transforms-3/e730cc98819d857f774d1eb17d85b109/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/taufik/.gradle/caches/transforms-3/bb862ab321a650e385e4475fdd6fc350/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/taufik/.gradle/caches/transforms-3/bb862ab321a650e385e4475fdd6fc350/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.emoji2:emoji2:1.0.0] /home/taufik/.gradle/caches/transforms-3/4566c7fccb0842fac76b02b6fa7945eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.emoji2:emoji2:1.0.0] /home/taufik/.gradle/caches/transforms-3/4566c7fccb0842fac76b02b6fa7945eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/taufik/.gradle/caches/transforms-3/b2cfdd724f1f1d2ff16b1d71576b711c/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/taufik/.gradle/caches/transforms-3/b2cfdd724f1f1d2ff16b1d71576b711c/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/taufik/.gradle/caches/transforms-3/0c47c7bfbc1b509109e8ce5e2f184670/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/taufik/.gradle/caches/transforms-3/0c47c7bfbc1b509109e8ce5e2f184670/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.2.0] /home/taufik/.gradle/caches/transforms-3/ff6e5f576867f971734dc27aa0a2be8e/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] /home/taufik/.gradle/caches/transforms-3/ff6e5f576867f971734dc27aa0a2be8e/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/taufik/.gradle/caches/transforms-3/2d81262f9bc7481d3621204bcada33da/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/taufik/.gradle/caches/transforms-3/2d81262f9bc7481d3621204bcada33da/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/taufik/.gradle/caches/transforms-3/c3b80d8b62603bcf51255a7e8a3e5d76/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/taufik/.gradle/caches/transforms-3/c3b80d8b62603bcf51255a7e8a3e5d76/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/taufik/.gradle/caches/transforms-3/5c8390209dbe2f750a975dab835911e8/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/taufik/.gradle/caches/transforms-3/5c8390209dbe2f750a975dab835911e8/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/taufik/.gradle/caches/transforms-3/55e99c8be62b2ed75108edae37cb87a6/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/taufik/.gradle/caches/transforms-3/55e99c8be62b2ed75108edae37cb87a6/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/taufik/.gradle/caches/transforms-3/1a8e0825bd62b50f091611020dd7907e/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/taufik/.gradle/caches/transforms-3/1a8e0825bd62b50f091611020dd7907e/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/taufik/.gradle/caches/transforms-3/234494e7a5f8d12a2a75c235749f3742/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/taufik/.gradle/caches/transforms-3/234494e7a5f8d12a2a75c235749f3742/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] /home/taufik/.gradle/caches/transforms-3/980871c8990a950c6f3d8646d038fd3a/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /home/taufik/.gradle/caches/transforms-3/980871c8990a950c6f3d8646d038fd3a/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.7.0] /home/taufik/.gradle/caches/transforms-3/05c865d2d43be6a2a356f92ad571ba48/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.7.0] /home/taufik/.gradle/caches/transforms-3/05c865d2d43be6a2a356f92ad571ba48/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/taufik/.gradle/caches/transforms-3/367b4e871fb239bdaa3a2a2db5210614/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/taufik/.gradle/caches/transforms-3/367b4e871fb239bdaa3a2a2db5210614/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/taufik/.gradle/caches/transforms-3/0f45f4888a7bc7969879c8e026409343/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/taufik/.gradle/caches/transforms-3/0f45f4888a7bc7969879c8e026409343/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] /home/taufik/.gradle/caches/transforms-3/d9ea0e8ea7686de7af5692407503a975/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] /home/taufik/.gradle/caches/transforms-3/d9ea0e8ea7686de7af5692407503a975/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/taufik/.gradle/caches/transforms-3/52b9f52db475e9f6e4953cea75724256/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/taufik/.gradle/caches/transforms-3/52b9f52db475e9f6e4953cea75724256/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] /home/taufik/.gradle/caches/transforms-3/b3873e58b76d6317043c5bcd53187340/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /home/taufik/.gradle/caches/transforms-3/b3873e58b76d6317043c5bcd53187340/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/taufik/.gradle/caches/transforms-3/0e0928d7a33e3683d55ec9782b5363b6/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/taufik/.gradle/caches/transforms-3/0e0928d7a33e3683d55ec9782b5363b6/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.exifinterface:exifinterface:1.2.0] /home/taufik/.gradle/caches/transforms-3/3065f1f02041b828a269182cbaffa15b/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.2.0] /home/taufik/.gradle/caches/transforms-3/3065f1f02041b828a269182cbaffa15b/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/taufik/.gradle/caches/transforms-3/cafb349206491eae11b46688599ad683/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/taufik/.gradle/caches/transforms-3/cafb349206491eae11b46688599ad683/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/taufik/.gradle/caches/transforms-3/87ae87037303a87cced9bafbe2f113b5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/taufik/.gradle/caches/transforms-3/87ae87037303a87cced9bafbe2f113b5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.0.0] /home/taufik/.gradle/caches/transforms-3/366cf7c6440b2fa00b515bd0d95f59c1/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.0.0] /home/taufik/.gradle/caches/transforms-3/366cf7c6440b2fa00b515bd0d95f59c1/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] /home/taufik/.gradle/caches/transforms-3/2c7f077dc8b20a472c28c0365fb92907/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /home/taufik/.gradle/caches/transforms-3/2c7f077dc8b20a472c28c0365fb92907/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/taufik/.gradle/caches/transforms-3/c71eb99f832f03dfdf7d9fb70adc3ef6/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/taufik/.gradle/caches/transforms-3/c71eb99f832f03dfdf7d9fb70adc3ef6/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/taufik/.gradle/caches/transforms-3/1a9f38186e531fe1feae6027b766025a/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/taufik/.gradle/caches/transforms-3/1a9f38186e531fe1feae6027b766025a/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/taufik/.gradle/caches/transforms-3/a975e9878c6c3fc3ecb5c3e15cc432f5/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/taufik/.gradle/caches/transforms-3/a975e9878c6c3fc3ecb5c3e15cc432f5/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/taufik/.gradle/caches/transforms-3/808183ff479a1e0bbd8c551ff0f3fecd/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/taufik/.gradle/caches/transforms-3/808183ff479a1e0bbd8c551ff0f3fecd/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/taufik/.gradle/caches/transforms-3/e1a0eae06622bbc2ec028511639154cd/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/taufik/.gradle/caches/transforms-3/e1a0eae06622bbc2ec028511639154cd/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/taufik/.gradle/caches/transforms-3/e9a7842192c2e1d46a06db713d1c06ae/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/taufik/.gradle/caches/transforms-3/e9a7842192c2e1d46a06db713d1c06ae/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/taufik/.gradle/caches/transforms-3/569b1d492d557f8546aad3dec7dfa0a8/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/taufik/.gradle/caches/transforms-3/569b1d492d557f8546aad3dec7dfa0a8/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/taufik/.gradle/caches/transforms-3/4c6b73875430cf96ea50f48064197b3e/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/taufik/.gradle/caches/transforms-3/4c6b73875430cf96ea50f48064197b3e/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/taufik/.gradle/caches/transforms-3/bf23b79a85b6c9d15b686d1fa2bbabe0/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/taufik/.gradle/caches/transforms-3/bf23b79a85b6c9d15b686d1fa2bbabe0/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.1.3] /home/taufik/.gradle/caches/transforms-3/3916a637f8a84de57d33f23ab5ea5238/transformed/jetified-viewbinding-7.1.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.1.3] /home/taufik/.gradle/caches/transforms-3/3916a637f8a84de57d33f23ab5ea5238/transformed/jetified-viewbinding-7.1.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.7.0] /home/taufik/.gradle/caches/transforms-3/7381ae4010f9af547c1da019c57572f0/transformed/material-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.7.0] /home/taufik/.gradle/caches/transforms-3/7381ae4010f9af547c1da019c57572f0/transformed/material-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/taufik/.gradle/caches/transforms-3/628fe8a6a6a548f273e25b340beb4137/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/taufik/.gradle/caches/transforms-3/628fe8a6a6a548f273e25b340beb4137/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /home/taufik/.gradle/caches/transforms-3/0a6670dc26e938e3b1ee159db362ab98/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /home/taufik/.gradle/caches/transforms-3/0a6670dc26e938e3b1ee159db362ab98/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] /home/taufik/.gradle/caches/transforms-3/1611c54f79305e129c5ded6b92b836ca/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] /home/taufik/.gradle/caches/transforms-3/1611c54f79305e129c5ded6b92b836ca/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/taufik/.gradle/caches/transforms-3/4c60e1cdaed734ce9d4c3fadb54800cf/transformed/jetified-glide-4.14.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/taufik/.gradle/caches/transforms-3/4c60e1cdaed734ce9d4c3fadb54800cf/transformed/jetified-glide-4.14.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/taufik/.gradle/caches/transforms-3/6efba963293978aa027a3a47bb8ec2d3/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/taufik/.gradle/caches/transforms-3/6efba963293978aa027a3a47bb8ec2d3/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/taufik/.gradle/caches/transforms-3/dc853e7e8699fa83b50f24b8694ec6fc/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/taufik/.gradle/caches/transforms-3/dc853e7e8699fa83b50f24b8694ec6fc/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] /home/taufik/.gradle/caches/transforms-3/7a679b66bd74e2e45bddbbd2f92bfdaf/transformed/jetified-activity-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] /home/taufik/.gradle/caches/transforms-3/7a679b66bd74e2e45bddbbd2f92bfdaf/transformed/jetified-activity-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/taufik/.gradle/caches/transforms-3/e917ffbf851f309a8b8ac21810d6710c/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/taufik/.gradle/caches/transforms-3/e917ffbf851f309a8b8ac21810d6710c/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/taufik/.gradle/caches/transforms-3/f53163e335e210e863e5b90c052fd063/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/taufik/.gradle/caches/transforms-3/f53163e335e210e863e5b90c052fd063/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/taufik/.gradle/caches/transforms-3/fc013d338a806df097cb0393e906f993/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/taufik/.gradle/caches/transforms-3/fc013d338a806df097cb0393e906f993/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/taufik/.gradle/caches/transforms-3/fb974261c1160ea8842da9e58040f253/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/taufik/.gradle/caches/transforms-3/fb974261c1160ea8842da9e58040f253/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/taufik/.gradle/caches/transforms-3/b07cf67c127ee023ee539d11ec3ab0d5/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/taufik/.gradle/caches/transforms-3/b07cf67c127ee023ee539d11ec3ab0d5/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.8.0] /home/taufik/.gradle/caches/transforms-3/401c0fa7bce2d558390ec8607befb1af/transformed/jetified-core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.8.0] /home/taufik/.gradle/caches/transforms-3/401c0fa7bce2d558390ec8607befb1af/transformed/jetified-core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/taufik/.gradle/caches/transforms-3/fd183cdcc1b77853fee1217c0813e950/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/taufik/.gradle/caches/transforms-3/fd183cdcc1b77853fee1217c0813e950/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-splashscreen:1.0.0] /home/taufik/.gradle/caches/transforms-3/ef53259aa49a99ea084f4b3c482e454d/transformed/jetified-core-splashscreen-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-splashscreen:1.0.0] /home/taufik/.gradle/caches/transforms-3/ef53259aa49a99ea084f4b3c482e454d/transformed/jetified-core-splashscreen-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/taufik/.gradle/caches/transforms-3/6c3a3d9a4973ef2d17b3f59d4054c833/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/taufik/.gradle/caches/transforms-3/6c3a3d9a4973ef2d17b3f59d4054c833/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/taufik/.gradle/caches/transforms-3/06cb48db15f4f2049eef7fdd5224ea51/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/taufik/.gradle/caches/transforms-3/06cb48db15f4f2049eef7fdd5224ea51/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/taufik/.gradle/caches/transforms-3/31e2a70334571db220029c4ed77a964a/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/taufik/.gradle/caches/transforms-3/31e2a70334571db220029c4ed77a964a/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/taufik/.gradle/caches/transforms-3/c891ffdc5dfb41f6962727169960d39f/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/taufik/.gradle/caches/transforms-3/c891ffdc5dfb41f6962727169960d39f/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/taufik/.gradle/caches/transforms-3/6e4aabcafe19eb2ec2120d79ad6bed30/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/taufik/.gradle/caches/transforms-3/6e4aabcafe19eb2ec2120d79ad6bed30/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/taufik/.gradle/caches/transforms-3/43acecdb1ec48f1f2335dd1e08c00c44/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/taufik/.gradle/caches/transforms-3/43acecdb1ec48f1f2335dd1e08c00c44/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/taufik/.gradle/caches/transforms-3/8d18b9e7808a15482eb290e360f24738/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/taufik/.gradle/caches/transforms-3/8d18b9e7808a15482eb290e360f24738/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/taufik/.gradle/caches/transforms-3/49a275806570dfdf4a614dd2989e4835/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/taufik/.gradle/caches/transforms-3/49a275806570dfdf4a614dd2989e4835/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/taufik/.gradle/caches/transforms-3/3042a2a545c697fe387ad7ce196db72b/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/taufik/.gradle/caches/transforms-3/3042a2a545c697fe387ad7ce196db72b/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/taufik/.gradle/caches/transforms-3/5e6d4560256a7d7bba640644f8ac807e/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/taufik/.gradle/caches/transforms-3/5e6d4560256a7d7bba640644f8ac807e/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /home/taufik/.gradle/caches/transforms-3/0157722375ab10d5306230fe0e82ebda/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /home/taufik/.gradle/caches/transforms-3/0157722375ab10d5306230fe0e82ebda/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/taufik/.gradle/caches/transforms-3/241ef860012c653675bdbb2d028f5c8b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/taufik/.gradle/caches/transforms-3/241ef860012c653675bdbb2d028f5c8b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/taufik/.gradle/caches/transforms-3/0c0a452932f669ef250c8e4bdfbc578a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/taufik/.gradle/caches/transforms-3/0c0a452932f669ef250c8e4bdfbc578a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/taufik/.gradle/caches/transforms-3/e165ca9d788dc95df684f35adaa49b12/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/taufik/.gradle/caches/transforms-3/e165ca9d788dc95df684f35adaa49b12/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/taufik/.gradle/caches/transforms-3/2bf1242b333a91e3d7855abb889643e7/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/taufik/.gradle/caches/transforms-3/2bf1242b333a91e3d7855abb889643e7/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/taufik/.gradle/caches/transforms-3/ce263994681cc07ac0bfd47a0c84d032/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/taufik/.gradle/caches/transforms-3/ce263994681cc07ac0bfd47a0c84d032/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /home/taufik/.gradle/caches/transforms-3/15987a2a1c098e0ac0433c8e564d47c7/transformed/jetified-gifdecoder-4.14.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /home/taufik/.gradle/caches/transforms-3/15987a2a1c098e0ac0433c8e564d47c7/transformed/jetified-gifdecoder-4.14.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /home/taufik/.gradle/caches/transforms-3/ff59c913d5bb54e0a8ea174794ed2b20/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /home/taufik/.gradle/caches/transforms-3/ff59c913d5bb54e0a8ea174794ed2b20/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/taufik/.gradle/caches/transforms-3/c6c51c59429d0b6fb5f37f671e521a8d/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/taufik/.gradle/caches/transforms-3/c6c51c59429d0b6fb5f37f671e521a8d/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/taufik/.gradle/caches/transforms-3/9cc745f948a0d0467ffa3faf633e86c0/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/taufik/.gradle/caches/transforms-3/9cc745f948a0d0467ffa3faf633e86c0/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/taufik/.gradle/caches/transforms-3/bf50f7e6ebe8b5f4142b7dc46656da03/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/taufik/.gradle/caches/transforms-3/bf50f7e6ebe8b5f4142b7dc46656da03/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/taufik/.gradle/caches/transforms-3/7704f9286c02c46f4e859e6be68a2de7/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/taufik/.gradle/caches/transforms-3/7704f9286c02c46f4e859e6be68a2de7/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/taufik/.gradle/caches/transforms-3/c0ffef9c186a3ddede25b59571304e60/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/taufik/.gradle/caches/transforms-3/c0ffef9c186a3ddede25b59571304e60/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/taufik/.gradle/caches/transforms-3/77ea222cd1b455dc8160816338efc034/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/taufik/.gradle/caches/transforms-3/77ea222cd1b455dc8160816338efc034/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/taufik/.gradle/caches/transforms-3/cb719a3988a72487536e25cd721a80a1/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/taufik/.gradle/caches/transforms-3/cb719a3988a72487536e25cd721a80a1/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/taufik/.gradle/caches/transforms-3/5c6a9bf7dd2ff9a28ccbb762979f31b7/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/taufik/.gradle/caches/transforms-3/5c6a9bf7dd2ff9a28ccbb762979f31b7/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/taufik/.gradle/caches/transforms-3/a5d85796f4b85f923fe8c7fba05dff67/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/taufik/.gradle/caches/transforms-3/a5d85796f4b85f923fe8c7fba05dff67/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/taufik/.gradle/caches/transforms-3/043235f89c2fe6f507bc69ad3a1d9d14/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/taufik/.gradle/caches/transforms-3/043235f89c2fe6f507bc69ad3a1d9d14/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/taufik/.gradle/caches/transforms-3/a77d428756841b0e12430d41fc506a8e/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/taufik/.gradle/caches/transforms-3/a77d428756841b0e12430d41fc506a8e/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 INJECTED from /home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/AndroidManifest.xml
 INJECTED from /home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -250,28 +250,28 @@ INJECTED from /home/taufik/StudioProjects/Version Control/github/asean-kt/app/sr
 		ADDED from /home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/AndroidManifest.xml
 		INJECTED from /home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/AndroidManifest.xml
 provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.0.0] /home/taufik/.gradle/caches/transforms-3/4566c7fccb0842fac76b02b6fa7945eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/taufik/.gradle/caches/transforms-3/87ae87037303a87cced9bafbe2f113b5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/taufik/.gradle/caches/transforms-3/87ae87037303a87cced9bafbe2f113b5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.startup:startup-runtime:1.0.0] /home/taufik/.gradle/caches/transforms-3/366cf7c6440b2fa00b515bd0d95f59c1/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.0.0] /home/taufik/.gradle/caches/transforms-3/366cf7c6440b2fa00b515bd0d95f59c1/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/taufik/.gradle/caches/transforms-3/06cb48db15f4f2049eef7fdd5224ea51/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/taufik/.gradle/caches/transforms-3/0c0a452932f669ef250c8e4bdfbc578a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/taufik/.gradle/caches/transforms-3/0c0a452932f669ef250c8e4bdfbc578a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/taufik/.gradle/caches/transforms-3/c6c51c59429d0b6fb5f37f671e521a8d/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/taufik/.gradle/caches/transforms-3/c6c51c59429d0b6fb5f37f671e521a8d/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
 	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/taufik/.gradle/caches/transforms-3/4566c7fccb0842fac76b02b6fa7945eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:30:13-31
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/taufik/.gradle/caches/transforms-3/06cb48db15f4f2049eef7fdd5224ea51/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
 	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/taufik/.gradle/caches/transforms-3/4566c7fccb0842fac76b02b6fa7945eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/taufik/.gradle/caches/transforms-3/06cb48db15f4f2049eef7fdd5224ea51/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/taufik/.gradle/caches/transforms-3/4566c7fccb0842fac76b02b6fa7945eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/taufik/.gradle/caches/transforms-3/06cb48db15f4f2049eef7fdd5224ea51/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/taufik/.gradle/caches/transforms-3/4566c7fccb0842fac76b02b6fa7945eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/taufik/.gradle/caches/transforms-3/06cb48db15f4f2049eef7fdd5224ea51/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
 meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.0.0] /home/taufik/.gradle/caches/transforms-3/4566c7fccb0842fac76b02b6fa7945eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/taufik/.gradle/caches/transforms-3/06cb48db15f4f2049eef7fdd5224ea51/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/taufik/.gradle/caches/transforms-3/4566c7fccb0842fac76b02b6fa7945eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/taufik/.gradle/caches/transforms-3/06cb48db15f4f2049eef7fdd5224ea51/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/taufik/.gradle/caches/transforms-3/4566c7fccb0842fac76b02b6fa7945eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/taufik/.gradle/caches/transforms-3/06cb48db15f4f2049eef7fdd5224ea51/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/taufik/.gradle/caches/transforms-3/87ae87037303a87cced9bafbe2f113b5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/taufik/.gradle/caches/transforms-3/0c0a452932f669ef250c8e4bdfbc578a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/taufik/.gradle/caches/transforms-3/87ae87037303a87cced9bafbe2f113b5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/taufik/.gradle/caches/transforms-3/0c0a452932f669ef250c8e4bdfbc578a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/taufik/.gradle/caches/transforms-3/87ae87037303a87cced9bafbe2f113b5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/taufik/.gradle/caches/transforms-3/0c0a452932f669ef250c8e4bdfbc578a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78

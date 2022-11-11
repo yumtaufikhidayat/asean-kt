@@ -25,17 +25,14 @@ import com.taufik.asean.utils.Utils.makeLinks
 
 class ProfileActivity : AppCompatActivity(), View.OnClickListener {
 
-    private lateinit var binding: ActivityProfileBinding
+    private val binding by lazy { ActivityProfileBinding.inflate(layoutInflater) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityProfileBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         setToolbar()
-
         setProfileData()
-
         setInitOnClick()
     }
 
@@ -60,16 +57,16 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
 
             tvProfileName.text = getString(R.string.textProfileName)
             tvProfileJobPosition.text = getString(R.string.textJobPosition)
-            tvProfileEmail.text = getString(R.string.textEmail)
+            tvProfileEmail.text = getString(R.string.textEmailAddress)
             tvProfileOffice.text = getString(R.string.textOfficeName)
 
             tvProfileLinkedIn.apply {
-                text = getString(R.string.textLinkedIn)
+                text = getString(R.string.textLinkedInAccount)
                 setTextColor(ContextCompat.getColor(this@ProfileActivity, R.color.teal_200))
             }
 
             tvProfileGithub.apply {
-                text = getString(R.string.textGithub)
+                text = getString(R.string.textGithubAccount)
                 setTextColor(ContextCompat.getColor(this@ProfileActivity, R.color.teal_200))
             }
 
@@ -153,17 +150,14 @@ class ProfileActivity : AppCompatActivity(), View.OnClickListener {
             shareIntent.type = "text/plain"
             shareIntent.putExtra(Intent.EXTRA_TEXT, body)
             startActivity(Intent.createChooser(shareIntent, "Bagikan dengan"))
-        } catch (e: Exception) {
-            Log.e("shareFailed", "onOptionsItemSelected: ${e.localizedMessage}")
-        }
+        } catch (_: Exception) {}
     }
 
     private fun setAppVersion() {
         binding.apply {
             try {
                 val pInfo: PackageInfo = packageManager.getPackageInfo(packageName, 0)
-                val appVersion = pInfo.versionName
-                tvVersion.text = String.format(getString(R.string.textAppVersion) + " " + appVersion)
+                tvVersion.text = pInfo.versionName
             } catch (e: PackageManager.NameNotFoundException) {
                 e.printStackTrace()
             }

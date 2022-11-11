@@ -1,5 +1,7 @@
 package com.taufik.asean.data
 
+import com.taufik.asean.R
+
 object CountriesData {
 
     private val countryNames = arrayOf(
@@ -120,16 +122,16 @@ object CountriesData {
     )
 
     private val countryAreas = arrayOf(
-        "1.904.569 km persegi",
-        "513.120 km persegi",
-        "5.765 km persegi",
-        "331.231 km persegi",
-        "329.847 km persegi",
-        "237.955 km persegi",
-        "721,5 km persegi",
-        "676.578 km persegi",
-        "343.448 km persegi",
-        "181.035 km persegi"
+        "1.904.569",
+        "513.120",
+        "5.765",
+        "331.231",
+        "329.847",
+        "237.955",
+        "721,5",
+        "676.578",
+        "343.448",
+        "181.035"
     )
 
     val listData: ArrayList<Country>

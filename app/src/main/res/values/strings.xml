@@ -3,11 +3,15 @@
     <string name="textHeaderTitle">ASEAN</string>
     <string name="textProfileName">Taufik Hidayat</string>
     <string name="textJobPosition">Android Developer</string>
-    <string name="textEmail">yumtaufikhidayat@gmail.com</string>
+    <string name="textEmail">Email</string>
+    <string name="textEmailAddress">yumtaufikhidayat@gmail.com</string>
+    <string name="textOffice">Kantor</string>
     <string name="textOfficeName">PT KB Finansia Multi Finance</string>
-    <string name="textLinkedIn">https://linkedin.com/in/taufik-hidayat</string>
-    <string name="textGithub">https://github.com/yumtaufikhidayat</string>
-    <string name="textAppVersion">Versi </string>
+    <string name="textLinkedIn">LinkedIn</string>
+    <string name="textLinkedInAccount">https://linkedin.com/in/taufik-hidayat</string>
+    <string name="textGithub">Github</string>
+    <string name="textGithubAccount">https://github.com/yumtaufikhidayat</string>
+    <string name="textAppVersion">Versi Aplikasi</string>
     <string name="textSummary">Ringkasan</string>
     <string name="textOpenInBrowser">Buka di Peramban</string>
     <string name="textTitleCapital">Ibukota</string>
@@ -16,4 +20,5 @@
     <string name="textTitleOfficialLanguage">Bahasa Resmi</string>
     <string name="textTitleCurrency">Mata Uang</string>
     <string name="textTitleLandArea">Luas Wilayah</string>
+    <string name="ms"><![CDATA[%1$s km<sup><small><small>2</small></small><sup>]]></string>
 </resources>

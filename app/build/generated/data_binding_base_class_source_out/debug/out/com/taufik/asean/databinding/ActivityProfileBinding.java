@@ -40,6 +40,21 @@ public final class ActivityProfileBinding implements ViewBinding {
   public final CircleImageView imgProfilePhoto;
 
   @NonNull
+  public final TextView tvAppVersion;
+
+  @NonNull
+  public final TextView tvEmail;
+
+  @NonNull
+  public final TextView tvGithub;
+
+  @NonNull
+  public final TextView tvLinkedIn;
+
+  @NonNull
+  public final TextView tvOffice;
+
+  @NonNull
   public final TextView tvProfileEmail;
 
   @NonNull
@@ -63,7 +78,9 @@ public final class ActivityProfileBinding implements ViewBinding {
   private ActivityProfileBinding(@NonNull ScrollView rootView, @NonNull ImageView imgAppVersion,
       @NonNull ImageView imgProfileEmail, @NonNull ImageView imgProfileGithub,
       @NonNull ImageView imgProfileLinkedIn, @NonNull ImageView imgProfileOffice,
-      @NonNull CircleImageView imgProfilePhoto, @NonNull TextView tvProfileEmail,
+      @NonNull CircleImageView imgProfilePhoto, @NonNull TextView tvAppVersion,
+      @NonNull TextView tvEmail, @NonNull TextView tvGithub, @NonNull TextView tvLinkedIn,
+      @NonNull TextView tvOffice, @NonNull TextView tvProfileEmail,
       @NonNull TextView tvProfileGithub, @NonNull TextView tvProfileJobPosition,
       @NonNull TextView tvProfileLinkedIn, @NonNull TextView tvProfileName,
       @NonNull TextView tvProfileOffice, @NonNull TextView tvVersion) {
@@ -74,6 +91,11 @@ public final class ActivityProfileBinding implements ViewBinding {
     this.imgProfileLinkedIn = imgProfileLinkedIn;
     this.imgProfileOffice = imgProfileOffice;
     this.imgProfilePhoto = imgProfilePhoto;
+    this.tvAppVersion = tvAppVersion;
+    this.tvEmail = tvEmail;
+    this.tvGithub = tvGithub;
+    this.tvLinkedIn = tvLinkedIn;
+    this.tvOffice = tvOffice;
     this.tvProfileEmail = tvProfileEmail;
     this.tvProfileGithub = tvProfileGithub;
     this.tvProfileJobPosition = tvProfileJobPosition;
@@ -146,6 +168,36 @@ public final class ActivityProfileBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tvAppVersion;
+      TextView tvAppVersion = ViewBindings.findChildViewById(rootView, id);
+      if (tvAppVersion == null) {
+        break missingId;
+      }
+
+      id = R.id.tvEmail;
+      TextView tvEmail = ViewBindings.findChildViewById(rootView, id);
+      if (tvEmail == null) {
+        break missingId;
+      }
+
+      id = R.id.tvGithub;
+      TextView tvGithub = ViewBindings.findChildViewById(rootView, id);
+      if (tvGithub == null) {
+        break missingId;
+      }
+
+      id = R.id.tvLinkedIn;
+      TextView tvLinkedIn = ViewBindings.findChildViewById(rootView, id);
+      if (tvLinkedIn == null) {
+        break missingId;
+      }
+
+      id = R.id.tvOffice;
+      TextView tvOffice = ViewBindings.findChildViewById(rootView, id);
+      if (tvOffice == null) {
+        break missingId;
+      }
+
       id = R.id.tvProfileEmail;
       TextView tvProfileEmail = ViewBindings.findChildViewById(rootView, id);
       if (tvProfileEmail == null) {
@@ -189,9 +241,9 @@ public final class ActivityProfileBinding implements ViewBinding {
       }
 
       return new ActivityProfileBinding((ScrollView) rootView, imgAppVersion, imgProfileEmail,
-          imgProfileGithub, imgProfileLinkedIn, imgProfileOffice, imgProfilePhoto, tvProfileEmail,
-          tvProfileGithub, tvProfileJobPosition, tvProfileLinkedIn, tvProfileName, tvProfileOffice,
-          tvVersion);
+          imgProfileGithub, imgProfileLinkedIn, imgProfileOffice, imgProfilePhoto, tvAppVersion,
+          tvEmail, tvGithub, tvLinkedIn, tvOffice, tvProfileEmail, tvProfileGithub,
+          tvProfileJobPosition, tvProfileLinkedIn, tvProfileName, tvProfileOffice, tvVersion);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

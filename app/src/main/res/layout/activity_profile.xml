@@ -71,19 +71,30 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginStart="16dp"
                 android:background="@drawable/bg_round_purple"
-                android:contentDescription="@string/app_name"
+                android:contentDescription="@string/textEmail"
                 app:layout_constraintTop_toBottomOf="@id/tvProfileJobPosition"
                 app:layout_constraintStart_toStartOf="parent"/>
+
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="@string/textEmail"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toEndOf="@id/imgProfileEmail"
+                app:layout_constraintTop_toTopOf="@id/imgProfileEmail"/>
 
             <TextView
                 android:id="@+id/tvProfileEmail"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                tools:text="@tools:sample/cities"
+                tools:text="@string/textEmailAddress"
                 android:textColor="@color/black"
                 app:layout_constraintStart_toEndOf="@id/imgProfileEmail"
-                app:layout_constraintTop_toTopOf="@id/imgProfileEmail"
+                app:layout_constraintTop_toBottomOf="@+id/tvEmail"
                 app:layout_constraintBottom_toBottomOf="@id/imgProfileEmail"/>
 
             <ImageView
@@ -92,22 +103,33 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_outline_office"
                 android:padding="6dp"
-                android:layout_marginTop="12dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginStart="16dp"
                 android:background="@drawable/bg_round_red"
-                android:contentDescription="@string/app_name"
+                android:contentDescription="@string/textOffice"
                 app:layout_constraintTop_toBottomOf="@id/imgProfileEmail"
                 app:layout_constraintStart_toStartOf="parent"/>
+
+            <TextView
+                android:id="@+id/tvOffice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="@string/textOffice"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toEndOf="@id/imgProfileOffice"
+                app:layout_constraintTop_toTopOf="@id/imgProfileOffice"/>
 
             <TextView
                 android:id="@+id/tvProfileOffice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                tools:text="@tools:sample/cities"
+                tools:text="@string/textOfficeName"
                 android:textColor="@color/black"
                 app:layout_constraintStart_toEndOf="@id/imgProfileOffice"
-                app:layout_constraintTop_toTopOf="@id/imgProfileOffice"
+                app:layout_constraintTop_toBottomOf="@id/tvOffice"
                 app:layout_constraintBottom_toBottomOf="@id/imgProfileOffice"/>
 
             <ImageView
@@ -116,22 +138,33 @@
                 android:layout_height="36dp"
                 android:src="@drawable/ic_linkedin"
                 android:padding="6dp"
-                android:layout_marginTop="12dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginStart="16dp"
                 android:background="@drawable/bg_round_blue"
-                android:contentDescription="@string/app_name"
+                android:contentDescription="@string/textLinkedIn"
                 app:layout_constraintTop_toBottomOf="@id/imgProfileOffice"
                 app:layout_constraintStart_toStartOf="parent"/>
+
+            <TextView
+                android:id="@+id/tvLinkedIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="@string/textLinkedIn"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toEndOf="@id/imgProfileLinkedIn"
+                app:layout_constraintTop_toTopOf="@id/imgProfileLinkedIn"/>
 
             <TextView
                 android:id="@+id/tvProfileLinkedIn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                tools:text="@tools:sample/cities"
+                tools:text="@string/textLinkedInAccount"
                 android:textColor="@color/black"
                 app:layout_constraintStart_toEndOf="@id/imgProfileLinkedIn"
-                app:layout_constraintTop_toTopOf="@id/imgProfileLinkedIn"
+                app:layout_constraintTop_toBottomOf="@id/tvLinkedIn"
                 app:layout_constraintBottom_toBottomOf="@id/imgProfileLinkedIn"/>
 
             <ImageView
@@ -140,22 +173,33 @@
                 android:layout_height="36dp"
                 android:src="@drawable/ic_github_big_logo"
                 android:padding="6dp"
-                android:layout_marginTop="12dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginStart="16dp"
                 android:background="@drawable/bg_round_orange"
-                android:contentDescription="@string/app_name"
+                android:contentDescription="@string/textGithub"
                 app:layout_constraintTop_toBottomOf="@id/imgProfileLinkedIn"
                 app:layout_constraintStart_toStartOf="parent"/>
+
+            <TextView
+                android:id="@+id/tvGithub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="@string/textGithub"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toEndOf="@id/imgProfileGithub"
+                app:layout_constraintTop_toTopOf="@id/imgProfileGithub"/>
 
             <TextView
                 android:id="@+id/tvProfileGithub"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                tools:text="@tools:sample/cities"
+                tools:text="@string/textGithubAccount"
                 android:textColor="@color/black"
                 app:layout_constraintStart_toEndOf="@id/imgProfileGithub"
-                app:layout_constraintTop_toTopOf="@id/imgProfileGithub"
+                app:layout_constraintTop_toBottomOf="@id/tvGithub"
                 app:layout_constraintBottom_toBottomOf="@id/imgProfileGithub"/>
 
             <ImageView
@@ -164,22 +208,33 @@
                 android:layout_height="36dp"
                 android:src="@drawable/ic_outline_android"
                 android:padding="6dp"
-                android:layout_marginTop="12dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginStart="16dp"
                 android:background="@drawable/bg_round_green"
-                android:contentDescription="@string/app_name"
+                android:contentDescription="@string/textAppVersion"
                 app:layout_constraintTop_toBottomOf="@id/imgProfileGithub"
                 app:layout_constraintStart_toStartOf="parent"/>
+
+            <TextView
+                android:id="@+id/tvAppVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="@string/textAppVersion"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@id/imgAppVersion"
+                app:layout_constraintTop_toTopOf="@id/imgAppVersion"/>
 
             <TextView
                 android:id="@+id/tvVersion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                tools:text="@tools:sample/cities"
+                tools:text="@tools:sample/us_zipcodes"
                 android:textColor="@color/black"
                 app:layout_constraintStart_toEndOf="@id/imgAppVersion"
-                app:layout_constraintTop_toTopOf="@id/imgAppVersion"
+                app:layout_constraintTop_toBottomOf="@id/tvAppVersion"
                 app:layout_constraintBottom_toBottomOf="@id/imgAppVersion"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,7 +4,12 @@ import android.text.*
 import android.text.method.LinkMovementMethod
 import android.text.style.ClickableSpan
 import android.view.View
+import android.widget.ImageView
 import android.widget.TextView
+import com.bumptech.glide.Glide
+import com.bumptech.glide.load.DecodeFormat
+import com.bumptech.glide.request.RequestOptions
+import com.bumptech.glide.request.target.Target
 
 object Utils {
 
@@ -39,5 +44,17 @@ object Utils {
 
         this.movementMethod = LinkMovementMethod.getInstance()
         this.setText(spannableString, TextView.BufferType.SPANNABLE)
+    }
+
+    fun ImageView.loadImage(data: String, placeholder: Int) {
+        Glide.with(this)
+            .load(data)
+            .placeholder(placeholder)
+            .apply(
+                RequestOptions()
+                .fitCenter()
+                .format(DecodeFormat.PREFER_ARGB_8888)
+                .override(Target.SIZE_ORIGINAL))
+            .into(this)
     }
 }

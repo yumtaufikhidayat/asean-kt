@@ -6,12 +6,11 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
-import com.bumptech.glide.request.RequestOptions
 import com.taufik.asean.R
 import com.taufik.asean.data.Country
 import com.taufik.asean.databinding.ItemCountryBinding
 import com.taufik.asean.ui.activity.DetailActivity
+import com.taufik.asean.utils.Utils.loadImage
 
 class CountryAdapter : ListAdapter<Country, CountryAdapter.ViewHolder>(countryDiffCallback) {
 
@@ -27,12 +26,7 @@ class CountryAdapter : ListAdapter<Country, CountryAdapter.ViewHolder>(countryDi
     inner class ViewHolder(private val binding: ItemCountryBinding) : RecyclerView.ViewHolder(binding.root) {
         fun bind(country: Country) {
             binding.apply {
-                Glide.with(itemView.context)
-                    .load(country.countryFlag)
-                    .placeholder(R.color.purple_700)
-                    .apply(RequestOptions().override(55, 55))
-                    .into(imgItemPhoto)
-
+                imgItemPhoto.loadImage(country.countryFlag, R.color.purple_700)
                 tvCountryName.text = country.countryName
                 tvCountryGovSystem.text = country.countryInternationalName
                 tvCountryDesc.text = country.countryDescription

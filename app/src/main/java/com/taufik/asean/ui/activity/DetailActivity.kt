@@ -4,17 +4,16 @@ import android.content.Intent
 import android.graphics.Typeface
 import android.net.Uri
 import android.os.Bundle
+import android.text.Html
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.bumptech.glide.Glide
-import com.bumptech.glide.load.DecodeFormat
-import com.bumptech.glide.request.RequestOptions
-import com.bumptech.glide.request.target.Target
+import androidx.core.text.HtmlCompat
 import com.taufik.asean.R
 import com.taufik.asean.data.Country
 import com.taufik.asean.databinding.ActivityDetailBinding
+import com.taufik.asean.utils.Utils.loadImage
 
 class DetailActivity : AppCompatActivity() {
 
@@ -28,12 +27,12 @@ class DetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
-        setParcelable()
+        getParcelableData()
         setToolbar()
         setData()
     }
 
-    private fun setParcelable() {
+    private fun getParcelableData() {
         country = intent.getParcelableExtra<Country>(EXTRA_DETAIL) as Country
     }
 
@@ -47,26 +46,19 @@ class DetailActivity : AppCompatActivity() {
 
     private fun setData() {
         binding.apply {
-            Glide.with(this@DetailActivity)
-                .load(country.countryFlag)
-                .apply(RequestOptions()
-                    .fitCenter()
-                    .format(DecodeFormat.PREFER_ARGB_8888)
-                    .override(Target.SIZE_ORIGINAL))
-                .into(imgCountryFlag)
-
+            imgCountryFlag.loadImage(country.countryFlag, R.color.purple_700)
             tvCountryName.text = country.countryName
             tvCountryIntlName.apply {
                 text = country.countryInternationalName
                 setTypeface(null, Typeface.ITALIC)
             }
             tvCountryDesc.text = country.countryDescription
-            tvCountryCapital.text = country.countryCapital
-            tvCountryHeadGov.text = country.countryHeadGovernment
-            tvCountryIndependenceDay.text = country.countryIndependenceDay
-            tvCountryLanguage.text = country.countryLanguage
-            tvCountryCurrency.text = country.countryCurrency
-            tvCountryLandArea.text = country.countryLandArea
+            tvCountryCapitalName.text = country.countryCapital
+            tvCountryHeadGovName.text = country.countryHeadGovernment
+            tvCountryIndependenceDayName.text = country.countryIndependenceDay
+            tvCountryOfficialLanguageName.text = country.countryLanguage
+            tvCountryCurrencyName.text = country.countryCurrency
+            tvCountryLandAreaName.text = Html.fromHtml(String.format(getString(R.string.ms), country.countryLandArea), HtmlCompat.FROM_HTML_MODE_LEGACY)
         }
     }
 
