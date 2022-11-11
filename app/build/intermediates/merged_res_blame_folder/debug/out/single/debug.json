@@ -1,0 +1,206 @@
+[
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/layout_activity_splashscreen.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/layout/activity_splashscreen.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/menu_menu_detail.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/menu/menu_detail.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/drawable_bg_round_purple.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/drawable/bg_round_purple.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/drawable_bg_round_red.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/drawable/bg_round_red.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/drawable_asean_logo.png.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/drawable/asean_logo.png"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/drawable_ic_linkedin.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/drawable/ic_linkedin.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/drawable_bg_round_yellow.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/drawable/bg_round_yellow.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/drawable_ic_outline_calendar.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/drawable/ic_outline_calendar.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/drawable_ic_outline_more.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/drawable/ic_outline_more.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/drawable_ic_outline_office.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/drawable/ic_outline_office.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/drawable_bg_round_blue.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/drawable/bg_round_blue.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/drawable_bg_profile.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/drawable/bg_profile.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/drawable_ic_outline_language.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/drawable/ic_outline_language.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/layout_item_country.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/layout/item_country.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/drawable_ic_github_big_logo.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/drawable/ic_github_big_logo.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/drawable_ic_outline_share.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/drawable/ic_outline_share.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/layout_activity_profile.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/layout/activity_profile.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/drawable_bg_round_green.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/drawable/bg_round_green.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/menu_menu_main.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/drawable_ic_outline_browser.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/drawable/ic_outline_browser.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/drawable_bg_round_orange.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/drawable/bg_round_orange.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/drawable_ic_outline_area.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/drawable/ic_outline_area.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/drawable_pp_taufik.jpeg.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/drawable/pp_taufik.jpeg"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/drawable_ic_outline_android.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/drawable/ic_outline_android.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/layout_activity_detail.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/layout/activity_detail.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/drawable_bg_gradient.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/drawable/bg_gradient.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/drawable_ic_outline_email.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/drawable/ic_outline_email.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/drawable_ic_outline_about.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/drawable/ic_outline_about.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/menu_menu_profile.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/menu/menu_profile.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/drawable_ic_outline_currency.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/drawable/ic_outline_currency.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/drawable_bg_gradient_profile.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/drawable/bg_gradient_profile.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/merged_res/debug/drawable_ic_outline_head_country.xml.flat",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/drawable/ic_outline_head_country.xml"
+    }
+]

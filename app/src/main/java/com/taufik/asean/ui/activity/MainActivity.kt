@@ -17,19 +17,18 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private lateinit var countryAdapter: CountryAdapter
     private var listCountries: ArrayList<Country> = arrayListOf()
-    private var title: String = "ASEAN"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        setActionBarTitle(title)
+        setActionBarTitle()
         showData()
     }
 
-    private fun setActionBarTitle(title: String) {
-        supportActionBar?.title = title
+    private fun setActionBarTitle() {
+        supportActionBar?.title = getString(R.string.textHeaderTitle)
     }
 
     private fun showData() {
