@@ -17,10 +17,7 @@ import com.taufik.asean.utils.Utils.loadImage
 
 class DetailActivity : AppCompatActivity() {
 
-    private val binding by lazy {
-        ActivityDetailBinding.inflate(layoutInflater)
-    }
-
+    private val binding by lazy { ActivityDetailBinding.inflate(layoutInflater) }
     private lateinit var country: Country
 
     override fun onCreate(savedInstanceState: Bundle?) {
