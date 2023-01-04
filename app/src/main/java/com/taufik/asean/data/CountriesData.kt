@@ -1,7 +1,5 @@
 package com.taufik.asean.data
 
-import com.taufik.asean.R
-
 object CountriesData {
 
     private val countryNames = arrayOf(
