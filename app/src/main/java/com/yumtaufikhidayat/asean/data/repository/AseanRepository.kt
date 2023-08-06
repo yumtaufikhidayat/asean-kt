@@ -9,4 +9,8 @@ class AseanRepository @Inject constructor(
     suspend fun insertCountry() = localDataSource.insertCountry()
 
     fun getAllCountries() = localDataSource.getAllCountries()
+
+    suspend fun insertProfile() = localDataSource.insertProfile()
+
+    fun getProfile() = localDataSource.getProfile()
 }
