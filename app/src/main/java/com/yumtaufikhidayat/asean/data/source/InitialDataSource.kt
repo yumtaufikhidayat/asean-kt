@@ -1,6 +1,7 @@
 package com.yumtaufikhidayat.asean.data.source
 
 import com.yumtaufikhidayat.asean.model.Country
+import com.yumtaufikhidayat.asean.model.Profile
 
 object InitialDataSource {
     fun listOfCountries(): ArrayList<Country> {
@@ -156,5 +157,17 @@ object InitialDataSource {
             )
         )
         return list
+    }
+
+    fun getProfile(): Profile {
+        return Profile(
+            profileName = "Taufik Hidayat",
+            profileJob = "Android Developer",
+            profileDesc = "Taufik got his bachelor as Informatics Engineer from Institut Teknologi Telkom Purwokerto. Since college, he founded a Belajar LibreOffice Indonesia (BLOI) an online free software virtual community on Telegram which has 1000+ members to help others learn LibreOffice software and resolve the issues of using LibreOffice.\n\n" +
+                    "In his free time, he learns and practice by taking Android Development course from Dicoding Indonesia to learn latest Android technology and get latest also sharpen his Android skill due to industrial needs. He also loves to learn UI/UX design to build better UI/UX on Android application and improve his another skills.\n\n" +
+                    "Now, he is working as an External Code Reviewer on Android Learning Path at Dicoding Indonesia.",
+            profileEmail = "yumtaufikhidayat@gmail.com",
+            profileOffice = "Dicoding Indonesia"
+        )
     }
 }
