@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_country.xml",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/layout/item_country.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_splashscreen.xml",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/layout/activity_splashscreen.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_profile.xml",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/layout/activity_profile.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_detail.xml",
+        "source": "/home/taufik/StudioProjects/Version Control/github/asean-kt/app/src/main/res/layout/activity_detail.xml"
+    }
+]
