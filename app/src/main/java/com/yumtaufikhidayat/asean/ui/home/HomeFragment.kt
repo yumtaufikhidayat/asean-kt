@@ -42,6 +42,7 @@ class HomeFragment : Fragment() {
 
         initAdapter()
         getAllCountries()
+        navigateToProfile()
     }
 
     private fun initAdapter() {
@@ -65,6 +66,12 @@ class HomeFragment : Fragment() {
             putParcelable(DetailFragment.EXTRA_DETAIL, country)
         }
         findNavController().navigate(R.id.detailFragment, bundle)
+    }
+
+    private fun navigateToProfile() {
+        binding.fabProfile.setOnClickListener {
+            findNavController().navigate(R.id.profileFragment)
+        }
     }
 
     override fun onDestroyView() {
