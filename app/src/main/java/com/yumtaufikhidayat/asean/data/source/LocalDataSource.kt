@@ -9,4 +9,8 @@ class LocalDataSource @Inject constructor(
     suspend fun insertCountry() = dao.insertCountry(InitialDataSource.listOfCountries())
 
     fun getAllCountries() = dao.getAllCountries()
+
+    suspend fun insertProfile() = dao.insertProfile(InitialDataSource.getProfile())
+
+    fun getProfile() = dao.getProfile()
 }
