@@ -22,11 +22,19 @@
         <action
             android:id="@+id/action_homeFragment_to_detailFragment"
             app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
     </fragment>
     <fragment
         android:id="@+id/detailFragment"
         android:name="com.yumtaufikhidayat.asean.ui.detail.DetailFragment"
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.yumtaufikhidayat.asean.ui.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
 
 </navigation>
