@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.asean.app-merged_res-57:/drawable_pp_taufik.png.flat",
+        "source": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.asean.app-main-59:/drawable/pp_taufik.png"
+    },
+    {
         "merged": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.asean.app-merged_res-57:/drawable_ic_outline_head_country.xml.flat",
         "source": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.asean.app-main-59:/drawable/ic_outline_head_country.xml"
     },
@@ -176,16 +180,16 @@
         "source": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.asean.app-main-59:/drawable/ic_outline_calendar.xml"
     },
     {
-        "merged": "com.yumtaufikhidayat.asean.app-merged_res-57:/drawable_pp_taufik.png.flat",
-        "source": "com.yumtaufikhidayat.asean.app-main-59:/drawable/pp_taufik.png"
-    },
-    {
         "merged": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.asean.app-merged_res-57:/layout_activity_main.xml.flat",
         "source": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.asean.app-main-59:/layout/activity_main.xml"
     },
     {
         "merged": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.asean.app-merged_res-57:/layout_fragment_detail.xml.flat",
         "source": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.asean.app-main-59:/layout/fragment_detail.xml"
+    },
+    {
+        "merged": "com.yumtaufikhidayat.asean.app-merged_res-57:/layout_fragment_profile.xml.flat",
+        "source": "com.yumtaufikhidayat.asean.app-main-59:/layout/fragment_profile.xml"
     },
     {
         "merged": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.asean.app-merged_res-57:/mipmap-mdpi_ic_launcher.webp.flat",

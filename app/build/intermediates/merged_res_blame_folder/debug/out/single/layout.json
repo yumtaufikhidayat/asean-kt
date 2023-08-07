@@ -1,34 +1,38 @@
 [
     {
-        "merged": "com.yumtaufikhidayat.asean.app-mergeDebugResources-56:/layout/activity_main.xml",
-        "source": "com.yumtaufikhidayat.asean.app-main-59:/layout/activity_main.xml"
+        "merged": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.asean.app-mergeDebugResources-56:/layout/toolbar_general.xml",
+        "source": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.asean.app-main-59:/layout/toolbar_general.xml"
     },
     {
-        "merged": "com.yumtaufikhidayat.asean.app-mergeDebugResources-56:/layout/toolbar_detail.xml",
-        "source": "com.yumtaufikhidayat.asean.app-main-59:/layout/toolbar_detail.xml"
+        "merged": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.asean.app-mergeDebugResources-56:/layout/item_country.xml",
+        "source": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.asean.app-main-59:/layout/item_country.xml"
     },
     {
-        "merged": "com.yumtaufikhidayat.asean.app-mergeDebugResources-56:/layout/fragment_detail.xml",
-        "source": "com.yumtaufikhidayat.asean.app-main-59:/layout/fragment_detail.xml"
+        "merged": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.asean.app-mergeDebugResources-56:/layout/fragment_home.xml",
+        "source": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.asean.app-main-59:/layout/fragment_home.xml"
     },
     {
         "merged": "com.yumtaufikhidayat.asean.app-mergeDebugResources-56:/layout/fragment_profile.xml",
         "source": "com.yumtaufikhidayat.asean.app-main-59:/layout/fragment_profile.xml"
     },
     {
-        "merged": "com.yumtaufikhidayat.asean.app-mergeDebugResources-56:/layout/item_country.xml",
-        "source": "com.yumtaufikhidayat.asean.app-main-59:/layout/item_country.xml"
+        "merged": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.asean.app-mergeDebugResources-56:/layout/fragment_profile.xml",
+        "source": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.asean.app-main-59:/layout/fragment_profile.xml"
     },
     {
-        "merged": "com.yumtaufikhidayat.asean.app-mergeDebugResources-56:/layout/fragment_home.xml",
-        "source": "com.yumtaufikhidayat.asean.app-main-59:/layout/fragment_home.xml"
+        "merged": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.asean.app-mergeDebugResources-56:/layout/activity_main.xml",
+        "source": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.asean.app-main-59:/layout/activity_main.xml"
     },
     {
-        "merged": "com.yumtaufikhidayat.asean.app-mergeDebugResources-56:/layout/toolbar_general.xml",
-        "source": "com.yumtaufikhidayat.asean.app-main-59:/layout/toolbar_general.xml"
+        "merged": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.asean.app-mergeDebugResources-56:/layout/fragment_detail.xml",
+        "source": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.asean.app-main-59:/layout/fragment_detail.xml"
     },
     {
-        "merged": "com.yumtaufikhidayat.asean.app-mergeDebugResources-56:/layout/fragment_splashscreen.xml",
-        "source": "com.yumtaufikhidayat.asean.app-main-59:/layout/fragment_splashscreen.xml"
+        "merged": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.asean.app-mergeDebugResources-56:/layout/toolbar_detail.xml",
+        "source": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.asean.app-main-59:/layout/toolbar_detail.xml"
+    },
+    {
+        "merged": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.asean.app-mergeDebugResources-56:/layout/fragment_splashscreen.xml",
+        "source": "/Users/rizkahidayat/.gradle/daemon/8.0/com.yumtaufikhidayat.asean.app-main-59:/layout/fragment_splashscreen.xml"
     }
 ]
