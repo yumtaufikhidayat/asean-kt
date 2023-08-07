@@ -3023,6 +3023,7 @@ drawable ic_outline_language
 drawable ic_outline_more
 drawable ic_outline_office
 drawable ic_outline_person
+drawable ic_outline_share
 drawable ic_search_black_24
 drawable m3_appbar_background
 drawable m3_avd_hide_password
@@ -3342,6 +3343,7 @@ id imgProfile
 id imgProfileAppVersion
 id imgProfileEmail
 id imgProfileOffice
+id imgShare
 id immediateStop
 id included
 id indeterminate
@@ -4056,6 +4058,7 @@ string textCapital
 string textCurrency
 string textDetail
 string textEmail
+string textGithubProfile
 string textHeadGov
 string textIndependenceDay
 string textJobPosition
@@ -4063,6 +4066,7 @@ string textLandArea
 string textLanguage
 string textOffice
 string textProfileName
+string textShare
 string textSummary
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
