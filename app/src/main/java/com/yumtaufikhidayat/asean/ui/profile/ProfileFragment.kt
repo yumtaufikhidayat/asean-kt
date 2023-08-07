@@ -1,6 +1,8 @@
 package com.yumtaufikhidayat.asean.ui.profile
 
+import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -35,6 +37,7 @@ class ProfileFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         handleToolbar()
         setProfile()
+        shareProfile()
     }
 
     private fun handleToolbar() {
@@ -62,6 +65,24 @@ class ProfileFragment : Fragment() {
                     tvProfileAppVersion.appVersion(requireContext())
                 }
             }
+        }
+    }
+
+    private fun shareProfile() {
+        binding.toolbarProfile.imgShare.apply {
+            visibility = View.VISIBLE
+            setOnClickListener {
+                val url = getString(R.string.textGithubProfile)
+                try {
+                    val body = "Visit this awesome user \n$url"
+                    val shareIntent = Intent(Intent.ACTION_SEND)
+                    shareIntent.type = "text/plain"
+                    shareIntent.putExtra(Intent.EXTRA_TEXT, body)
+                    startActivity(Intent.createChooser(shareIntent, "Bagikan dengan"))
+                } catch (e: Exception) {
+                    Log.e("shareFailed", "onOptionsItemSelected: ${e.localizedMessage}")
+                }
+        }
         }
     }
 

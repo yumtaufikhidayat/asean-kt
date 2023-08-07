@@ -13,4 +13,6 @@
     <string name="textLanguage">Bahasa</string>
     <string name="textCurrency">Mata Uang</string>
     <string name="textLandArea">Luas Area</string>
+    <string name="textShare">Bagikan</string>
+    <string name="textGithubProfile">https://github.com/yumtaufikhidayat</string>
 </resources>
