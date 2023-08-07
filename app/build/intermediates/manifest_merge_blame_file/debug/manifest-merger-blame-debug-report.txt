@@ -45,131 +45,130 @@
 29-->/Users/rizkahidayat/Documents/VersionControl/github/asean-kt/app/src/main/AndroidManifest.xml:14:9-54
 30        android:supportsRtl="true"
 30-->/Users/rizkahidayat/Documents/VersionControl/github/asean-kt/app/src/main/AndroidManifest.xml:15:9-35
-31        android:testOnly="true"
-32        android:theme="@style/Theme.Asean" >
-32-->/Users/rizkahidayat/Documents/VersionControl/github/asean-kt/app/src/main/AndroidManifest.xml:16:9-43
-33        <activity
-33-->/Users/rizkahidayat/Documents/VersionControl/github/asean-kt/app/src/main/AndroidManifest.xml:18:9-26:20
-34            android:name="com.yumtaufikhidayat.asean.ui.MainActivity"
-34-->/Users/rizkahidayat/Documents/VersionControl/github/asean-kt/app/src/main/AndroidManifest.xml:19:13-44
-35            android:exported="true" >
-35-->/Users/rizkahidayat/Documents/VersionControl/github/asean-kt/app/src/main/AndroidManifest.xml:20:13-36
-36            <intent-filter>
-36-->/Users/rizkahidayat/Documents/VersionControl/github/asean-kt/app/src/main/AndroidManifest.xml:21:13-25:29
-37                <action android:name="android.intent.action.MAIN" />
-37-->/Users/rizkahidayat/Documents/VersionControl/github/asean-kt/app/src/main/AndroidManifest.xml:22:17-69
-37-->/Users/rizkahidayat/Documents/VersionControl/github/asean-kt/app/src/main/AndroidManifest.xml:22:25-66
-38
-39                <category android:name="android.intent.category.LAUNCHER" />
-39-->/Users/rizkahidayat/Documents/VersionControl/github/asean-kt/app/src/main/AndroidManifest.xml:24:17-77
-39-->/Users/rizkahidayat/Documents/VersionControl/github/asean-kt/app/src/main/AndroidManifest.xml:24:27-74
-40            </intent-filter>
-41        </activity>
-42
-43        <meta-data
-43-->[com.google.android.gms:play-services-basement:18.1.0] /Users/rizkahidayat/.gradle/caches/transforms-3/3840cff94708b3d9146c0b8fa5080522/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
-44            android:name="com.google.android.gms.version"
-44-->[com.google.android.gms:play-services-basement:18.1.0] /Users/rizkahidayat/.gradle/caches/transforms-3/3840cff94708b3d9146c0b8fa5080522/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
-45            android:value="@integer/google_play_services_version" />
-45-->[com.google.android.gms:play-services-basement:18.1.0] /Users/rizkahidayat/.gradle/caches/transforms-3/3840cff94708b3d9146c0b8fa5080522/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
-46
-47        <provider
-47-->[androidx.emoji2:emoji2:1.2.0] /Users/rizkahidayat/.gradle/caches/transforms-3/cfdc1cf776d560fa9fa48fe64a3c3e88/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-48            android:name="androidx.startup.InitializationProvider"
-48-->[androidx.emoji2:emoji2:1.2.0] /Users/rizkahidayat/.gradle/caches/transforms-3/cfdc1cf776d560fa9fa48fe64a3c3e88/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-49            android:authorities="com.yumtaufikhidayat.asean.androidx-startup"
-49-->[androidx.emoji2:emoji2:1.2.0] /Users/rizkahidayat/.gradle/caches/transforms-3/cfdc1cf776d560fa9fa48fe64a3c3e88/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-50            android:exported="false" >
-50-->[androidx.emoji2:emoji2:1.2.0] /Users/rizkahidayat/.gradle/caches/transforms-3/cfdc1cf776d560fa9fa48fe64a3c3e88/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-51            <meta-data
-51-->[androidx.emoji2:emoji2:1.2.0] /Users/rizkahidayat/.gradle/caches/transforms-3/cfdc1cf776d560fa9fa48fe64a3c3e88/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-52                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-52-->[androidx.emoji2:emoji2:1.2.0] /Users/rizkahidayat/.gradle/caches/transforms-3/cfdc1cf776d560fa9fa48fe64a3c3e88/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-53                android:value="androidx.startup" />
-53-->[androidx.emoji2:emoji2:1.2.0] /Users/rizkahidayat/.gradle/caches/transforms-3/cfdc1cf776d560fa9fa48fe64a3c3e88/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
-54            <meta-data
-54-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/rizkahidayat/.gradle/caches/transforms-3/7acda14beec583f7b12b8da222363f9e/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
-55                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-55-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/rizkahidayat/.gradle/caches/transforms-3/7acda14beec583f7b12b8da222363f9e/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
-56                android:value="androidx.startup" />
-56-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/rizkahidayat/.gradle/caches/transforms-3/7acda14beec583f7b12b8da222363f9e/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
-57            <meta-data
-57-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
-58                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-58-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
-59                android:value="androidx.startup" />
-59-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
-60        </provider>
-61
-62        <uses-library
-62-->[androidx.window:window:1.0.0] /Users/rizkahidayat/.gradle/caches/transforms-3/4cc6d490a65a91558eee3e6134a5f4a8/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
-63            android:name="androidx.window.extensions"
-63-->[androidx.window:window:1.0.0] /Users/rizkahidayat/.gradle/caches/transforms-3/4cc6d490a65a91558eee3e6134a5f4a8/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
-64            android:required="false" />
-64-->[androidx.window:window:1.0.0] /Users/rizkahidayat/.gradle/caches/transforms-3/4cc6d490a65a91558eee3e6134a5f4a8/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
-65        <uses-library
-65-->[androidx.window:window:1.0.0] /Users/rizkahidayat/.gradle/caches/transforms-3/4cc6d490a65a91558eee3e6134a5f4a8/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
-66            android:name="androidx.window.sidecar"
-66-->[androidx.window:window:1.0.0] /Users/rizkahidayat/.gradle/caches/transforms-3/4cc6d490a65a91558eee3e6134a5f4a8/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
-67            android:required="false" />
-67-->[androidx.window:window:1.0.0] /Users/rizkahidayat/.gradle/caches/transforms-3/4cc6d490a65a91558eee3e6134a5f4a8/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
-68
-69        <service
-69-->[androidx.room:room-runtime:2.5.2] /Users/rizkahidayat/.gradle/caches/transforms-3/d6427866ee9df6305efcb3a2fa5b73b5/transformed/room-runtime-2.5.2/AndroidManifest.xml:24:9-28:63
-70            android:name="androidx.room.MultiInstanceInvalidationService"
-70-->[androidx.room:room-runtime:2.5.2] /Users/rizkahidayat/.gradle/caches/transforms-3/d6427866ee9df6305efcb3a2fa5b73b5/transformed/room-runtime-2.5.2/AndroidManifest.xml:25:13-74
-71            android:directBootAware="true"
-71-->[androidx.room:room-runtime:2.5.2] /Users/rizkahidayat/.gradle/caches/transforms-3/d6427866ee9df6305efcb3a2fa5b73b5/transformed/room-runtime-2.5.2/AndroidManifest.xml:26:13-43
-72            android:exported="false" />
-72-->[androidx.room:room-runtime:2.5.2] /Users/rizkahidayat/.gradle/caches/transforms-3/d6427866ee9df6305efcb3a2fa5b73b5/transformed/room-runtime-2.5.2/AndroidManifest.xml:27:13-37
-73
-74        <receiver
-74-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
-75            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-75-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
-76            android:directBootAware="false"
-76-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
-77            android:enabled="true"
-77-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
-78            android:exported="true"
-78-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
-79            android:permission="android.permission.DUMP" >
-79-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
-80            <intent-filter>
-80-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
-81                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-81-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
-81-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
-82            </intent-filter>
-83            <intent-filter>
-83-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
-84                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-84-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
-84-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
-85            </intent-filter>
-86            <intent-filter>
-86-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
-87                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-87-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
-87-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
-88            </intent-filter>
-89            <intent-filter>
-89-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
-90                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-90-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
-90-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
-91            </intent-filter>
-92        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
-93        <activity
-93-->[com.google.android.play:core-common:2.0.2] /Users/rizkahidayat/.gradle/caches/transforms-3/6194d9abe43aabfd025a357e8cf44ceb/transformed/core-common-2.0.2/AndroidManifest.xml:14:9-18:65
-94            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
-94-->[com.google.android.play:core-common:2.0.2] /Users/rizkahidayat/.gradle/caches/transforms-3/6194d9abe43aabfd025a357e8cf44ceb/transformed/core-common-2.0.2/AndroidManifest.xml:15:13-93
-95            android:exported="false"
-95-->[com.google.android.play:core-common:2.0.2] /Users/rizkahidayat/.gradle/caches/transforms-3/6194d9abe43aabfd025a357e8cf44ceb/transformed/core-common-2.0.2/AndroidManifest.xml:16:13-37
-96            android:stateNotNeeded="true"
-96-->[com.google.android.play:core-common:2.0.2] /Users/rizkahidayat/.gradle/caches/transforms-3/6194d9abe43aabfd025a357e8cf44ceb/transformed/core-common-2.0.2/AndroidManifest.xml:17:13-42
-97            android:theme="@style/Theme.PlayCore.Transparent" />
-97-->[com.google.android.play:core-common:2.0.2] /Users/rizkahidayat/.gradle/caches/transforms-3/6194d9abe43aabfd025a357e8cf44ceb/transformed/core-common-2.0.2/AndroidManifest.xml:18:13-62
-98    </application>
-99
-100</manifest>
+31        android:theme="@style/Theme.Asean" >
+31-->/Users/rizkahidayat/Documents/VersionControl/github/asean-kt/app/src/main/AndroidManifest.xml:16:9-43
+32        <activity
+32-->/Users/rizkahidayat/Documents/VersionControl/github/asean-kt/app/src/main/AndroidManifest.xml:18:9-26:20
+33            android:name="com.yumtaufikhidayat.asean.ui.MainActivity"
+33-->/Users/rizkahidayat/Documents/VersionControl/github/asean-kt/app/src/main/AndroidManifest.xml:19:13-44
+34            android:exported="true" >
+34-->/Users/rizkahidayat/Documents/VersionControl/github/asean-kt/app/src/main/AndroidManifest.xml:20:13-36
+35            <intent-filter>
+35-->/Users/rizkahidayat/Documents/VersionControl/github/asean-kt/app/src/main/AndroidManifest.xml:21:13-25:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->/Users/rizkahidayat/Documents/VersionControl/github/asean-kt/app/src/main/AndroidManifest.xml:22:17-69
+36-->/Users/rizkahidayat/Documents/VersionControl/github/asean-kt/app/src/main/AndroidManifest.xml:22:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/Users/rizkahidayat/Documents/VersionControl/github/asean-kt/app/src/main/AndroidManifest.xml:24:17-77
+38-->/Users/rizkahidayat/Documents/VersionControl/github/asean-kt/app/src/main/AndroidManifest.xml:24:27-74
+39            </intent-filter>
+40        </activity>
+41
+42        <meta-data
+42-->[com.google.android.gms:play-services-basement:18.1.0] /Users/rizkahidayat/.gradle/caches/transforms-3/3840cff94708b3d9146c0b8fa5080522/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+43            android:name="com.google.android.gms.version"
+43-->[com.google.android.gms:play-services-basement:18.1.0] /Users/rizkahidayat/.gradle/caches/transforms-3/3840cff94708b3d9146c0b8fa5080522/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+44            android:value="@integer/google_play_services_version" />
+44-->[com.google.android.gms:play-services-basement:18.1.0] /Users/rizkahidayat/.gradle/caches/transforms-3/3840cff94708b3d9146c0b8fa5080522/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+45
+46        <provider
+46-->[androidx.emoji2:emoji2:1.2.0] /Users/rizkahidayat/.gradle/caches/transforms-3/cfdc1cf776d560fa9fa48fe64a3c3e88/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+47            android:name="androidx.startup.InitializationProvider"
+47-->[androidx.emoji2:emoji2:1.2.0] /Users/rizkahidayat/.gradle/caches/transforms-3/cfdc1cf776d560fa9fa48fe64a3c3e88/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+48            android:authorities="com.yumtaufikhidayat.asean.androidx-startup"
+48-->[androidx.emoji2:emoji2:1.2.0] /Users/rizkahidayat/.gradle/caches/transforms-3/cfdc1cf776d560fa9fa48fe64a3c3e88/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+49            android:exported="false" >
+49-->[androidx.emoji2:emoji2:1.2.0] /Users/rizkahidayat/.gradle/caches/transforms-3/cfdc1cf776d560fa9fa48fe64a3c3e88/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+50            <meta-data
+50-->[androidx.emoji2:emoji2:1.2.0] /Users/rizkahidayat/.gradle/caches/transforms-3/cfdc1cf776d560fa9fa48fe64a3c3e88/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+51                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+51-->[androidx.emoji2:emoji2:1.2.0] /Users/rizkahidayat/.gradle/caches/transforms-3/cfdc1cf776d560fa9fa48fe64a3c3e88/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+52                android:value="androidx.startup" />
+52-->[androidx.emoji2:emoji2:1.2.0] /Users/rizkahidayat/.gradle/caches/transforms-3/cfdc1cf776d560fa9fa48fe64a3c3e88/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+53            <meta-data
+53-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/rizkahidayat/.gradle/caches/transforms-3/7acda14beec583f7b12b8da222363f9e/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+54                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+54-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/rizkahidayat/.gradle/caches/transforms-3/7acda14beec583f7b12b8da222363f9e/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+55                android:value="androidx.startup" />
+55-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/rizkahidayat/.gradle/caches/transforms-3/7acda14beec583f7b12b8da222363f9e/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+56            <meta-data
+56-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+57                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+57-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+58                android:value="androidx.startup" />
+58-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+59        </provider>
+60
+61        <uses-library
+61-->[androidx.window:window:1.0.0] /Users/rizkahidayat/.gradle/caches/transforms-3/4cc6d490a65a91558eee3e6134a5f4a8/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+62            android:name="androidx.window.extensions"
+62-->[androidx.window:window:1.0.0] /Users/rizkahidayat/.gradle/caches/transforms-3/4cc6d490a65a91558eee3e6134a5f4a8/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+63            android:required="false" />
+63-->[androidx.window:window:1.0.0] /Users/rizkahidayat/.gradle/caches/transforms-3/4cc6d490a65a91558eee3e6134a5f4a8/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+64        <uses-library
+64-->[androidx.window:window:1.0.0] /Users/rizkahidayat/.gradle/caches/transforms-3/4cc6d490a65a91558eee3e6134a5f4a8/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+65            android:name="androidx.window.sidecar"
+65-->[androidx.window:window:1.0.0] /Users/rizkahidayat/.gradle/caches/transforms-3/4cc6d490a65a91558eee3e6134a5f4a8/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+66            android:required="false" />
+66-->[androidx.window:window:1.0.0] /Users/rizkahidayat/.gradle/caches/transforms-3/4cc6d490a65a91558eee3e6134a5f4a8/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+67
+68        <service
+68-->[androidx.room:room-runtime:2.5.2] /Users/rizkahidayat/.gradle/caches/transforms-3/d6427866ee9df6305efcb3a2fa5b73b5/transformed/room-runtime-2.5.2/AndroidManifest.xml:24:9-28:63
+69            android:name="androidx.room.MultiInstanceInvalidationService"
+69-->[androidx.room:room-runtime:2.5.2] /Users/rizkahidayat/.gradle/caches/transforms-3/d6427866ee9df6305efcb3a2fa5b73b5/transformed/room-runtime-2.5.2/AndroidManifest.xml:25:13-74
+70            android:directBootAware="true"
+70-->[androidx.room:room-runtime:2.5.2] /Users/rizkahidayat/.gradle/caches/transforms-3/d6427866ee9df6305efcb3a2fa5b73b5/transformed/room-runtime-2.5.2/AndroidManifest.xml:26:13-43
+71            android:exported="false" />
+71-->[androidx.room:room-runtime:2.5.2] /Users/rizkahidayat/.gradle/caches/transforms-3/d6427866ee9df6305efcb3a2fa5b73b5/transformed/room-runtime-2.5.2/AndroidManifest.xml:27:13-37
+72
+73        <receiver
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+74            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+75            android:directBootAware="false"
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+76            android:enabled="true"
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+77            android:exported="true"
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+78            android:permission="android.permission.DUMP" >
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+79            <intent-filter>
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+80                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+81            </intent-filter>
+82            <intent-filter>
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+83                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+84            </intent-filter>
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+86                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+87            </intent-filter>
+88            <intent-filter>
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+89                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/rizkahidayat/.gradle/caches/transforms-3/e3d9f486fd03bcbfa030fa6fd0a77bc1/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+90            </intent-filter>
+91        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
+92        <activity
+92-->[com.google.android.play:core-common:2.0.2] /Users/rizkahidayat/.gradle/caches/transforms-3/6194d9abe43aabfd025a357e8cf44ceb/transformed/core-common-2.0.2/AndroidManifest.xml:14:9-18:65
+93            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+93-->[com.google.android.play:core-common:2.0.2] /Users/rizkahidayat/.gradle/caches/transforms-3/6194d9abe43aabfd025a357e8cf44ceb/transformed/core-common-2.0.2/AndroidManifest.xml:15:13-93
+94            android:exported="false"
+94-->[com.google.android.play:core-common:2.0.2] /Users/rizkahidayat/.gradle/caches/transforms-3/6194d9abe43aabfd025a357e8cf44ceb/transformed/core-common-2.0.2/AndroidManifest.xml:16:13-37
+95            android:stateNotNeeded="true"
+95-->[com.google.android.play:core-common:2.0.2] /Users/rizkahidayat/.gradle/caches/transforms-3/6194d9abe43aabfd025a357e8cf44ceb/transformed/core-common-2.0.2/AndroidManifest.xml:17:13-42
+96            android:theme="@style/Theme.PlayCore.Transparent" />
+96-->[com.google.android.play:core-common:2.0.2] /Users/rizkahidayat/.gradle/caches/transforms-3/6194d9abe43aabfd025a357e8cf44ceb/transformed/core-common-2.0.2/AndroidManifest.xml:18:13-62
+97    </application>
+98
+99</manifest>
