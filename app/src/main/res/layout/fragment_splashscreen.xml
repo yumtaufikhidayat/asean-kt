@@ -26,6 +26,7 @@
         android:layout_marginBottom="2dp"
         android:text="@string/textAppVersion"
         android:textColor="@color/white"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toTopOf="@id/tvAppVersion"/>
