@@ -3337,6 +3337,7 @@ int id imgCountryLanguage 0x7f0800ec
 int id imgItemPhoto 0x7f0800ed
 int id imgLogo 0x7f0800ee
 int id imgProfile 0x7f0800ef
+int id imgProfileAppVersion 0x7f080234
 int id imgProfileEmail 0x7f0800f0
 int id imgProfileOffice 0x7f0800f1
 int id immediateStop 0x7f0800f2
@@ -3610,6 +3611,8 @@ int id transition_position 0x7f0801fd
 int id transition_scene_layoutid_cache 0x7f0801fe
 int id transition_transform 0x7f0801ff
 int id triangle 0x7f080200
+int id tvAppVersion 0x7f080235
+int id tvAppVersionTitle 0x7f080236
 int id tvCountryArea 0x7f080201
 int id tvCountryCapital 0x7f080202
 int id tvCountryCapitalTitle 0x7f08022c
@@ -3629,6 +3632,8 @@ int id tvCountryLanguage 0x7f08020b
 int id tvCountryLanguageTitle 0x7f080231
 int id tvCountryName 0x7f08020c
 int id tvProfileAbout 0x7f08020d
+int id tvProfileAppVersion 0x7f080237
+int id tvProfileAppVersionTitle 0x7f080238
 int id tvProfileDesc 0x7f08020e
 int id tvProfileEmail 0x7f08020f
 int id tvProfileEmailTitle 0x7f080232
@@ -4043,6 +4048,7 @@ int string searchview_navigation_content_description 0x7f1100ac
 int string side_sheet_accessibility_pane_title 0x7f1100ad
 int string side_sheet_behavior 0x7f1100ae
 int string status_bar_notification_info_overflow 0x7f1100af
+int string textAppVersion 0x7f1100b0
 int string textCapital 0x7f1100ba
 int string textCurrency 0x7f1100bb
 int string textDetail 0x7f1100b1

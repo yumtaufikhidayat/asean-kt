@@ -3338,6 +3338,7 @@ id imgCountryLanguage
 id imgItemPhoto
 id imgLogo
 id imgProfile
+id imgProfileAppVersion
 id imgProfileEmail
 id imgProfileOffice
 id immediateStop
@@ -3611,6 +3612,8 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvAppVersion
+id tvAppVersionTitle
 id tvCountryArea
 id tvCountryCapital
 id tvCountryCapitalTitle
@@ -3630,6 +3633,8 @@ id tvCountryLanguage
 id tvCountryLanguageTitle
 id tvCountryName
 id tvProfileAbout
+id tvProfileAppVersion
+id tvProfileAppVersionTitle
 id tvProfileDesc
 id tvProfileEmail
 id tvProfileEmailTitle
@@ -4044,6 +4049,7 @@ string searchview_navigation_content_description
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
+string textAppVersion
 string textCapital
 string textCurrency
 string textDetail
