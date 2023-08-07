@@ -46,6 +46,7 @@ class ProfileFragment : Fragment() {
     private fun setProfile() {
         binding.apply {
             lifecycleScope.launch {
+                viewModel.insertProfile()
                 viewModel.getProfile().collect { profile ->
                     imgProfile.setImageDrawable(
                         ContextCompat.getDrawable(
