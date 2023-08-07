@@ -164,8 +164,8 @@ object InitialDataSource {
             profileId = 0,
             profileName = "Taufik Hidayat",
             profileJob = "Android Developer",
-            profileDesc = "Taufik merupakan lulusan Teknik Informatika dari Institut Teknologi Telkom Purwokerto. Sejak kuliah, ia mendirikan Belajar LibreOffice Indonesia (BLOI), komunitas online/virtual di Telegram dan memiliki 1000+ anggota yang berfokus untuk membantu sesama dalam mempelajari software LibreOffice dan penyelesaian isu terkait LibreOffice.\n\n" +
-                    "Di waktu luang, ia belajar dan berlatih dengan mengambil kursus pengembangan Android dari Dicoding Indonesia untuk belajar teknologi terkini seputar Android serta meningkatkan dan mempertajam keahlian Android-nya sesuai dengan kebutuhan industri. Ia juga suka dan belajar terkait UI/UX design untuk membangun UI/UX aplikasi Android yang lebih baik serta meningkatkan kemampuan UI/UX-nya.\n\n" +
+            profileDesc = "Taufik merupakan seorang lulusan Teknik Informatika dari kampus Institut Teknologi Telkom Purwokerto. Semasa kuliah, ia mendirikan komunitas Belajar LibreOffice Indonesia (BLOI), sebuah komunitas online/virtual di Telegram yang berfokus untuk membantu sesama dalam mempelajari software LibreOffice dan penyelesaian isu terkait LibreOffice dan saat ini telah memiliki anggota aktif sebanyak 1000+ anggota.\n\n" +
+                    "Di waktu luang, ia menyempatkan diri untuk belajar dan berlatih dengan mengambil kursus pengembangan Android dari Dicoding Indonesia untuk belajar teknologi terkini seputar Android serta meningkatkan dan mempertajam keahlian Android-nya sesuai dengan kebutuhan industri. Ia juga suka dengan hal yang berkaitan dengan UI/UX design untuk membangun UI/UX aplikasi Android yang lebih baik. Maka dari itu, ia juga turut mengambil kursus Belajar UI/UX Design untuk meningkatkan kemampuan dalam mendesain aplikasi Android yang dibangun.\n\n" +
                     "Saat ini, ia bekerja sebagai External Code Reviewer pada learning path Android di Dicoding Indonesia.",
             profileEmail = "yumtaufikhidayat@gmail.com",
             profileOffice = "Dicoding Indonesia"
