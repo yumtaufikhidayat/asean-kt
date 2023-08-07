@@ -115,6 +115,19 @@
                     app:layout_constraintStart_toStartOf="@+id/tvProfileAbout"/>
 
                 <TextView
+                    android:id="@+id/tvProfileEmailTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/textEmail"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toTopOf="@id/imgProfileEmail"
+                    app:layout_constraintBottom_toTopOf="@id/tvProfileEmail"
+                    app:layout_constraintStart_toEndOf="@id/imgProfileEmail"
+                    app:layout_constraintEnd_toEndOf="@id/tvProfileDesc" />
+
+                <TextView
                     android:id="@+id/tvProfileEmail"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -122,10 +135,10 @@
                     tools:text="@tools:sample/cities"
                     android:textColor="@color/black"
                     android:maxLines="2"
+                    app:layout_constraintTop_toBottomOf="@id/tvProfileEmailTitle"
+                    app:layout_constraintBottom_toBottomOf="@id/imgProfileEmail"
                     app:layout_constraintStart_toEndOf="@id/imgProfileEmail"
-                    app:layout_constraintEnd_toEndOf="@id/tvProfileDesc"
-                    app:layout_constraintTop_toTopOf="@id/imgProfileEmail"
-                    app:layout_constraintBottom_toBottomOf="@id/imgProfileEmail"/>
+                    app:layout_constraintEnd_toEndOf="@id/tvProfileDesc"/>
 
                 <ImageView
                     android:id="@+id/imgProfileOffice"
@@ -133,11 +146,24 @@
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_outline_office"
                     android:padding="4dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="16dp"
                     android:background="@drawable/bg_round_red"
                     android:contentDescription="@string/app_name"
                     app:layout_constraintTop_toBottomOf="@id/imgProfileEmail"
                     app:layout_constraintStart_toStartOf="@+id/tvProfileAbout"/>
+
+                <TextView
+                    android:id="@+id/tvProfileOfficeTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/textOffice"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toTopOf="@id/imgProfileOffice"
+                    app:layout_constraintTop_toBottomOf="@id/tvProfileOffice"
+                    app:layout_constraintStart_toEndOf="@id/imgProfileOffice"
+                    app:layout_constraintEnd_toEndOf="@id/tvProfileDesc"/>
 
                 <TextView
                     android:id="@+id/tvProfileOffice"
@@ -147,10 +173,10 @@
                     tools:text="@tools:sample/cities"
                     android:textColor="@color/black"
                     android:maxLines="2"
+                    app:layout_constraintTop_toBottomOf="@id/tvProfileOfficeTitle"
+                    app:layout_constraintBottom_toBottomOf="@id/imgProfileOffice"
                     app:layout_constraintStart_toEndOf="@id/imgProfileOffice"
-                    app:layout_constraintEnd_toEndOf="@id/tvProfileDesc"
-                    app:layout_constraintTop_toTopOf="@id/imgProfileOffice"
-                    app:layout_constraintBottom_toBottomOf="@id/imgProfileOffice"/>
+                    app:layout_constraintEnd_toEndOf="@id/tvProfileDesc"/>
                 
             </androidx.constraintlayout.widget.ConstraintLayout>
 

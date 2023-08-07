@@ -115,6 +115,19 @@
                     app:layout_constraintStart_toStartOf="@+id/tvSummary"/>
 
                 <TextView
+                    android:id="@+id/tvCountryCapitalTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/textCapital"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toTopOf="@id/imgCountryCapital"
+                    app:layout_constraintBottom_toTopOf="@id/tvCountryCapital"
+                    app:layout_constraintStart_toEndOf="@id/imgCountryCapital"
+                    app:layout_constraintEnd_toEndOf="@id/tvCountryDesc"/>
+
+                <TextView
                     android:id="@+id/tvCountryCapital"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -122,10 +135,10 @@
                     tools:text="@tools:sample/cities"
                     android:textColor="@color/black"
                     android:maxLines="2"
+                    app:layout_constraintTop_toBottomOf="@id/tvCountryCapitalTitle"
+                    app:layout_constraintBottom_toBottomOf="@id/imgCountryCapital"
                     app:layout_constraintStart_toEndOf="@id/imgCountryCapital"
-                    app:layout_constraintEnd_toEndOf="@id/tvCountryDesc"
-                    app:layout_constraintTop_toTopOf="@id/imgCountryCapital"
-                    app:layout_constraintBottom_toBottomOf="@id/imgCountryCapital"/>
+                    app:layout_constraintEnd_toEndOf="@id/tvCountryDesc"/>
 
                 <ImageView
                     android:id="@+id/imgCountryHeadGov"
@@ -133,11 +146,24 @@
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_outline_head_country"
                     android:padding="4dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="16dp"
                     android:background="@drawable/bg_round_red"
                     android:contentDescription="@string/app_name"
                     app:layout_constraintTop_toBottomOf="@id/imgCountryCapital"
                     app:layout_constraintStart_toStartOf="@+id/tvSummary"/>
+
+                <TextView
+                    android:id="@+id/tvCountryHeadGovTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/textHeadGov"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toTopOf="@id/imgCountryHeadGov"
+                    app:layout_constraintBottom_toTopOf="@id/tvCountryHeadGov"
+                    app:layout_constraintStart_toEndOf="@id/imgCountryHeadGov"
+                    app:layout_constraintEnd_toEndOf="@id/tvCountryDesc"/>
 
                 <TextView
                     android:id="@+id/tvCountryHeadGov"
@@ -147,10 +173,10 @@
                     tools:text="@tools:sample/cities"
                     android:textColor="@color/black"
                     android:maxLines="2"
+                    app:layout_constraintTop_toBottomOf="@id/tvCountryHeadGovTitle"
+                    app:layout_constraintBottom_toBottomOf="@id/imgCountryHeadGov"
                     app:layout_constraintStart_toEndOf="@id/imgCountryHeadGov"
-                    app:layout_constraintEnd_toEndOf="@id/tvCountryDesc"
-                    app:layout_constraintTop_toTopOf="@id/imgCountryHeadGov"
-                    app:layout_constraintBottom_toBottomOf="@id/imgCountryHeadGov"/>
+                    app:layout_constraintEnd_toEndOf="@id/tvCountryDesc"/>
 
                 <ImageView
                     android:id="@+id/imgCountryIndependenceDay"
@@ -158,11 +184,24 @@
                     android:layout_height="36dp"
                     android:src="@drawable/ic_outline_calendar"
                     android:padding="4dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="16dp"
                     android:background="@drawable/bg_round_blue"
                     android:contentDescription="@string/app_name"
                     app:layout_constraintTop_toBottomOf="@id/imgCountryHeadGov"
                     app:layout_constraintStart_toStartOf="@+id/tvSummary"/>
+
+                <TextView
+                    android:id="@+id/tvCountryIndependenceDayTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/textIndependenceDay"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toTopOf="@id/imgCountryIndependenceDay"
+                    app:layout_constraintBottom_toTopOf="@id/tvCountryIndependenceDay"
+                    app:layout_constraintStart_toEndOf="@id/imgCountryIndependenceDay"
+                    app:layout_constraintEnd_toEndOf="@id/tvCountryDesc" />
 
                 <TextView
                     android:id="@+id/tvCountryIndependenceDay"
@@ -172,10 +211,10 @@
                     tools:text="@tools:sample/cities"
                     android:textColor="@color/black"
                     android:maxLines="2"
+                    app:layout_constraintTop_toBottomOf="@id/tvCountryIndependenceDayTitle"
+                    app:layout_constraintBottom_toBottomOf="@id/imgCountryIndependenceDay"
                     app:layout_constraintStart_toEndOf="@id/imgCountryIndependenceDay"
-                    app:layout_constraintEnd_toEndOf="@id/tvCountryDesc"
-                    app:layout_constraintTop_toTopOf="@id/imgCountryIndependenceDay"
-                    app:layout_constraintBottom_toBottomOf="@id/imgCountryIndependenceDay"/>
+                    app:layout_constraintEnd_toEndOf="@id/tvCountryDesc"/>
 
                 <ImageView
                     android:id="@+id/imgCountryLanguage"
@@ -183,11 +222,24 @@
                     android:layout_height="36dp"
                     android:src="@drawable/ic_outline_language"
                     android:padding="4dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="16dp"
                     android:background="@drawable/bg_round_orange"
                     android:contentDescription="@string/app_name"
                     app:layout_constraintTop_toBottomOf="@id/imgCountryIndependenceDay"
                     app:layout_constraintStart_toStartOf="@+id/tvSummary"/>
+
+                <TextView
+                    android:id="@+id/tvCountryLanguageTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/textLanguage"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toTopOf="@id/imgCountryLanguage"
+                    app:layout_constraintTop_toBottomOf="@id/tvCountryLanguage"
+                    app:layout_constraintStart_toEndOf="@id/imgCountryLanguage"
+                    app:layout_constraintEnd_toEndOf="@id/tvCountryDesc" />
 
                 <TextView
                     android:id="@+id/tvCountryLanguage"
@@ -197,10 +249,10 @@
                     tools:text="@tools:sample/cities"
                     android:textColor="@color/black"
                     android:maxLines="2"
+                    app:layout_constraintTop_toBottomOf="@id/tvCountryLanguageTitle"
+                    app:layout_constraintBottom_toBottomOf="@id/imgCountryLanguage"
                     app:layout_constraintStart_toEndOf="@id/imgCountryLanguage"
-                    app:layout_constraintEnd_toEndOf="@id/tvCountryDesc"
-                    app:layout_constraintTop_toTopOf="@id/imgCountryLanguage"
-                    app:layout_constraintBottom_toBottomOf="@id/imgCountryLanguage"/>
+                    app:layout_constraintEnd_toEndOf="@id/tvCountryDesc"/>
 
                 <ImageView
                     android:id="@+id/imgCountryCurrency"
@@ -208,11 +260,24 @@
                     android:layout_height="36dp"
                     android:src="@drawable/ic_outline_currency"
                     android:padding="4dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="16dp"
                     android:background="@drawable/bg_round_green"
                     android:contentDescription="@string/app_name"
                     app:layout_constraintTop_toBottomOf="@id/imgCountryLanguage"
                     app:layout_constraintStart_toStartOf="@+id/tvSummary"/>
+
+                <TextView
+                    android:id="@+id/tvCountryCurrencyTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/textCurrency"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    app:layout_constraintTop_toTopOf="@id/imgCountryCurrency"
+                    app:layout_constraintTop_toBottomOf="@id/tvCountryCurrency"
+                    app:layout_constraintStart_toEndOf="@id/imgCountryCurrency"
+                    app:layout_constraintEnd_toEndOf="@id/tvCountryDesc" />
 
                 <TextView
                     android:id="@+id/tvCountryCurrency"
@@ -222,10 +287,10 @@
                     tools:text="@tools:sample/cities"
                     android:maxLines="2"
                     android:textColor="@color/black"
+                    app:layout_constraintTop_toBottomOf="@id/tvCountryCurrencyTitle"
+                    app:layout_constraintBottom_toBottomOf="@id/imgCountryCurrency"
                     app:layout_constraintStart_toEndOf="@id/imgCountryCurrency"
-                    app:layout_constraintEnd_toEndOf="@id/tvCountryDesc"
-                    app:layout_constraintTop_toTopOf="@id/imgCountryCurrency"
-                    app:layout_constraintBottom_toBottomOf="@id/imgCountryCurrency"/>
+                    app:layout_constraintEnd_toEndOf="@id/tvCountryDesc" />
 
                 <ImageView
                     android:id="@+id/imgCountryArea"
@@ -233,11 +298,24 @@
                     android:layout_height="36dp"
                     android:src="@drawable/ic_outline_area"
                     android:padding="4dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="16dp"
                     android:background="@drawable/bg_round_yellow"
                     android:contentDescription="@string/app_name"
                     app:layout_constraintTop_toBottomOf="@id/imgCountryCurrency"
                     app:layout_constraintStart_toStartOf="@+id/tvSummary"/>
+
+                <TextView
+                    android:id="@+id/tvCountryLandAreaTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/textLandArea"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toTopOf="@id/imgCountryArea"
+                    app:layout_constraintBottom_toTopOf="@id/tvCountryLandArea"
+                    app:layout_constraintStart_toEndOf="@id/imgCountryArea"
+                    app:layout_constraintEnd_toEndOf="@id/tvCountryDesc"/>
 
                 <TextView
                     android:id="@+id/tvCountryLandArea"
@@ -247,10 +325,10 @@
                     tools:text="@tools:sample/cities"
                     android:textColor="@color/black"
                     android:maxLines="2"
+                    app:layout_constraintTop_toBottomOf="@id/tvCountryLandAreaTitle"
+                    app:layout_constraintBottom_toBottomOf="@id/imgCountryArea"
                     app:layout_constraintStart_toEndOf="@id/imgCountryArea"
-                    app:layout_constraintEnd_toEndOf="@id/tvCountryDesc"
-                    app:layout_constraintTop_toTopOf="@id/imgCountryArea"
-                    app:layout_constraintBottom_toBottomOf="@id/imgCountryArea"/>
+                    app:layout_constraintEnd_toEndOf="@id/tvCountryDesc" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
