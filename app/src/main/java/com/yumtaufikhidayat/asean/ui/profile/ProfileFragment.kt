@@ -11,6 +11,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.yumtaufikhidayat.asean.R
 import com.yumtaufikhidayat.asean.databinding.FragmentProfileBinding
+import com.yumtaufikhidayat.asean.utils.Utils.appVersion
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 
@@ -57,6 +58,7 @@ class ProfileFragment : Fragment() {
                     tvProfileDesc.text = profile.profileDesc
                     tvProfileEmail.text = profile.profileEmail
                     tvProfileOffice.text = profile.profileOffice
+                    tvProfileAppVersion.appVersion(requireContext())
                 }
             }
         }

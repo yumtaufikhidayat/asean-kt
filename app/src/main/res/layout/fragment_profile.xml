@@ -86,6 +86,7 @@
                     android:layout_marginHorizontal="16dp"
                     tools:text="@tools:sample/lorem/random"
                     android:textColor="@color/black"
+                    android:maxLines="2"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/tvProfileJob"/>
@@ -176,6 +177,44 @@
                     app:layout_constraintTop_toBottomOf="@id/tvProfileOfficeTitle"
                     app:layout_constraintBottom_toBottomOf="@id/imgProfileOffice"
                     app:layout_constraintStart_toEndOf="@id/imgProfileOffice"
+                    app:layout_constraintEnd_toEndOf="@id/tvProfileDesc"/>
+
+                <ImageView
+                    android:id="@+id/imgProfileAppVersion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_outline_android"
+                    android:padding="4dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/bg_round_green"
+                    android:contentDescription="@string/app_name"
+                    app:layout_constraintTop_toBottomOf="@id/imgProfileOffice"
+                    app:layout_constraintStart_toStartOf="@+id/tvProfileAbout"/>
+
+                <TextView
+                    android:id="@+id/tvProfileAppVersionTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/textAppVersion"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toTopOf="@id/imgProfileAppVersion"
+                    app:layout_constraintTop_toBottomOf="@id/tvProfileAppVersion"
+                    app:layout_constraintStart_toEndOf="@id/imgProfileAppVersion"
+                    app:layout_constraintEnd_toEndOf="@id/tvProfileDesc"/>
+
+                <TextView
+                    android:id="@+id/tvProfileAppVersion"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    tools:text="@tools:sample/cities"
+                    android:textColor="@color/black"
+                    android:maxLines="2"
+                    app:layout_constraintTop_toBottomOf="@id/tvProfileAppVersionTitle"
+                    app:layout_constraintBottom_toBottomOf="@id/imgProfileAppVersion"
+                    app:layout_constraintStart_toEndOf="@id/imgProfileAppVersion"
                     app:layout_constraintEnd_toEndOf="@id/tvProfileDesc"/>
                 
             </androidx.constraintlayout.widget.ConstraintLayout>

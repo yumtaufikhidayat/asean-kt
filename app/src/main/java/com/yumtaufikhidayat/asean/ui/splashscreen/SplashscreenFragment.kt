@@ -9,6 +9,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.yumtaufikhidayat.asean.R
 import com.yumtaufikhidayat.asean.databinding.FragmentSplashscreenBinding
+import com.yumtaufikhidayat.asean.utils.Utils.appVersion
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -32,6 +33,7 @@ class SplashscreenFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         navigateToHome()
+        showAppVersion()
     }
 
     private fun navigateToHome() {
@@ -42,6 +44,10 @@ class SplashscreenFragment : Fragment() {
                 navigate(R.id.homeFragment)
             }
         }
+    }
+
+    private fun showAppVersion() {
+        binding.tvAppVersion.appVersion(requireContext())
     }
 
     override fun onDestroyView() {
