@@ -18,7 +18,7 @@ object InitialDataSource {
                 countryIndependenceDay = "17 Agustus",
                 countryLanguage = "Bahasa Indonesia",
                 countryCurrency = "Rupiah (IDR)",
-                countryLandArea = "1.904.569"
+                countryLandArea = "1.904.569 km²"
             )
         )
         list.add(
@@ -33,7 +33,7 @@ object InitialDataSource {
                 countryIndependenceDay = "5 Desember",
                 countryLanguage = "Thai",
                 countryCurrency = "Baht (THB)",
-                countryLandArea = "513.120"
+                countryLandArea = "513.120 km²"
             )
         )
         list.add(
@@ -48,7 +48,7 @@ object InitialDataSource {
                 countryIndependenceDay = "23 Februari",
                 countryLanguage = "Melayu, Inggris, Mandarin",
                 countryCurrency = "Dolar Brunei (BND)",
-                countryLandArea = "5.765"
+                countryLandArea = "5.765 km²"
             )
         )
         list.add(
@@ -63,7 +63,7 @@ object InitialDataSource {
                 countryIndependenceDay = "2 September",
                 countryLanguage = "Vietnam",
                 countryCurrency = "Dong (VND)",
-                countryLandArea = "331.231"
+                countryLandArea = "331.231 km²"
             )
         )
         list.add(
@@ -78,7 +78,7 @@ object InitialDataSource {
                 countryIndependenceDay = "31 Agustus",
                 countryLanguage = "Melayu, Cina, Inggris, Tamil",
                 countryCurrency = "Ringgit (MYR)",
-                countryLandArea = "329.847"
+                countryLandArea = "329.847 km²"
             )
         )
         list.add(
@@ -93,7 +93,7 @@ object InitialDataSource {
                 countryIndependenceDay = "2 Desember",
                 countryLanguage = "Lao, Prancis, Inggris",
                 countryCurrency = "Kip (LAK)",
-                countryLandArea = "237.955"
+                countryLandArea = "237.955 km²"
             )
         )
         list.add(
@@ -108,7 +108,7 @@ object InitialDataSource {
                 countryIndependenceDay = "9 Agustus",
                 countryLanguage = "Inggris, Cina, Mandarin, Melayu, Tamil",
                 countryCurrency = "Dolar Singapura (SGD)",
-                countryLandArea = "721,5"
+                countryLandArea = "721,5 km²"
             )
         )
         list.add(
@@ -123,7 +123,7 @@ object InitialDataSource {
                 countryIndependenceDay = "4 Januari",
                 countryLanguage = "Burma",
                 countryCurrency = "Kyat (MMK)",
-                countryLandArea = "676.578"
+                countryLandArea = "676.578 km²"
             )
         )
         list.add(
@@ -138,7 +138,7 @@ object InitialDataSource {
                 countryIndependenceDay = "12 Juni",
                 countryLanguage = "Tagalog/Filipino, Inggris",
                 countryCurrency = "Peso (PHP)",
-                countryLandArea = "343.448"
+                countryLandArea = "343.448 km²"
             )
         )
         list.add(
@@ -153,7 +153,7 @@ object InitialDataSource {
                 countryIndependenceDay = "9 November",
                 countryLanguage = "Khmer, Prancis, Inggris",
                 countryCurrency = "Riel (KHR)",
-                countryLandArea = "181.035"
+                countryLandArea = "181.035 km²"
             )
         )
         return list
@@ -163,9 +163,9 @@ object InitialDataSource {
         return Profile(
             profileName = "Taufik Hidayat",
             profileJob = "Android Developer",
-            profileDesc = "Taufik got his bachelor as Informatics Engineer from Institut Teknologi Telkom Purwokerto. Since college, he founded a Belajar LibreOffice Indonesia (BLOI) an online free software virtual community on Telegram which has 1000+ members to help others learn LibreOffice software and resolve the issues of using LibreOffice.\n\n" +
-                    "In his free time, he learns and practice by taking Android Development course from Dicoding Indonesia to learn latest Android technology and get latest also sharpen his Android skill due to industrial needs. He also loves to learn UI/UX design to build better UI/UX on Android application and improve his another skills.\n\n" +
-                    "Now, he is working as an External Code Reviewer on Android Learning Path at Dicoding Indonesia.",
+            profileDesc = "Taufik merupakan lulusan Teknik Informatika dari Institut Teknologi Telkom Purwokerto. Sejak kuliah, ia mendirikan Belajar LibreOffice Indonesia (BLOI), komunitas online/virtual di Telegram dan memiliki 1000+ anggota yang berfokus untuk membantu sesama dalam mempelajari software LibreOffice dan penyelesaian isu terkait LibreOffice.\n\n" +
+                    "Di waktu luang, ia belajar dan berlatih dengan mengambil kursus pengembangan Android dari Dicoding Indonesia untuk belajar teknologi terkini seputar Android serta meningkatkan dan mempertajam keahlian Android-nya sesuai dengan kebutuhan industri. Ia juga suka dan belajar terkait UI/UX design untuk membangun UI/UX aplikasi Android yang lebih baik serta meningkatkan kemampuan UI/UX-nya.\n\n" +
+                    "Saat ini, ia bekerja sebagai External Code Reviewer pada learning path Android di Dicoding Indonesia.",
             profileEmail = "yumtaufikhidayat@gmail.com",
             profileOffice = "Dicoding Indonesia"
         )
