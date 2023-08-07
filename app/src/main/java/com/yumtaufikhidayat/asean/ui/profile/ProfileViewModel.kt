@@ -12,11 +12,7 @@ class ProfileViewModel @Inject constructor(
     private val repository: AseanRepository
 ) : ViewModel() {
 
-    init {
-        insertProfile()
-    }
-
-    private fun insertProfile() = viewModelScope.launch {
+    fun insertProfile() = viewModelScope.launch {
         repository.insertProfile()
     }
 
