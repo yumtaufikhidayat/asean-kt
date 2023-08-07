@@ -161,6 +161,7 @@ object InitialDataSource {
 
     fun getProfile(): Profile {
         return Profile(
+            profileId = 0,
             profileName = "Taufik Hidayat",
             profileJob = "Android Developer",
             profileDesc = "Taufik merupakan lulusan Teknik Informatika dari Institut Teknologi Telkom Purwokerto. Sejak kuliah, ia mendirikan Belajar LibreOffice Indonesia (BLOI), komunitas online/virtual di Telegram dan memiliki 1000+ anggota yang berfokus untuk membantu sesama dalam mempelajari software LibreOffice dan penyelesaian isu terkait LibreOffice.\n\n" +
