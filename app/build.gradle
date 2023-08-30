@@ -19,6 +19,9 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        def dateFormat = new Date().format('yyyyMMddHHmm')
+        setProperty("archivesBaseName", "asean" + "_v" + versionName + "(" + versionCode + ")_" + dateFormat)
     }
 
     buildTypes {
@@ -65,7 +68,7 @@ dependencies {
     implementation "androidx.navigation:navigation-dynamic-features-fragment:$navigationVersion"
 
     // Glide
-    def glideVersion = '4.15.1'
+    def glideVersion = '4.16.0'
     implementation "com.github.bumptech.glide:glide:$glideVersion"
 
     // Coroutine
