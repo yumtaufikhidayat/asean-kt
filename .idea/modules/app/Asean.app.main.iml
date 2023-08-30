@@ -30,7 +30,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/19754e8e43dc7d6df8a7759e35a08280/transformed/navigation-ui-2.6.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/0bdf4a8e4e88022911b66f4f9e9660a6/transformed/material-1.9.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/8d0274555a62a08740e4206dfe2c25b2/transformed/appcompat-1.6.1-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/7fefd2eab73a99525b266bdd803bd82e/transformed/glide-4.15.1-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/f81ac8cdca1a2517afbcaae6e6929031/transformed/glide-4.16.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/a6b090a1532bdf9bcc9ab87f212b7a05/transformed/viewpager2-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/00b869307dd350d1428f67e7d87ed82d/transformed/feature-delivery-2.0.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/13f709e1c6c06642c5f2f794df8d75f6/transformed/play-services-tasks-18.0.2-api.jar</arg>
@@ -73,7 +73,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/2171038f32e9a7548e32439f9eaa544a/transformed/savedstate-ktx-1.2.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/407f64903d7b1fd3b4312f5bd88bf419/transformed/savedstate-1.2.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/6ad5efa57924c1ce67f6ab9e6f693805/transformed/cardview-1.0.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/33d3d3955651c1234258f13306999df3/transformed/gifdecoder-4.15.1-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/91c593b42d2ac60efe259c3cae0b6dc1/transformed/gifdecoder-4.16.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/7ee572fcc2bf729ef9dd20f0d1a0219f/transformed/sqlite-framework-2.3.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/c30415b44335889e194d038c757b7aa2/transformed/sqlite-2.3.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/f420e96dbcbc2e56778be0c913446446/transformed/versionedparcelable-1.1.1-api.jar</arg>
@@ -100,9 +100,9 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/abe08068914f5131b74444aa6b034e6b/transformed/dagger-lint-aar-2.47-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/99d52dec67f9d932f415aab219e1bed9/transformed/core-common-2.0.2-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/disklrucache/4.15.1/e47ade981aefb5b975382750490d195fa569bbdf/disklrucache-4.15.1.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/annotations/4.15.1/d3721a4986a833e4ea71126489d12e08964b6f07/annotations-4.15.1.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/64d958bb747398b48e1065d4cd3a930c/transformed/exifinterface-1.3.3-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/disklrucache/4.16.0/411aa175d50d10b37c7a1a04d21a4e7145249557/disklrucache-4.16.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/annotations/4.16.0/90730f6498299d207aa0878124ab7585969808f0/annotations-4.16.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/b831c421157397213e7a31d8d14ff1f0/transformed/exifinterface-1.3.6-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/d266e836540c76c9f11d072761606413/transformed/circleimageview-3.1.0-api.jar</arg>
                 <arg>$USER_HOME$/Library/Android/sdk/platforms/android-33/android.jar</arg>
                 <arg>$USER_HOME$/Library/Android/sdk/build-tools/33.0.1/core-lambda-stubs.jar</arg>
@@ -111,7 +111,7 @@
             </stringArg>
             <stringArg name="destination" arg="$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debug" />
             <stringArg name="jvmTarget" arg="17" />
-            <stringArg name="moduleName" arg="app_debug" />
+            <stringArg name="moduleName" arg="asean_v1.0(1)_202308310524_debug" />
             <stringArg name="apiVersion" arg="1.8" />
             <stringArg name="languageVersion" arg="1.8" />
           </stringArguments>
@@ -239,9 +239,9 @@
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-basement:18.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-tasks:18.0.2@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.play:core-common:2.0.2@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.github.bumptech.glide:glide:4.15.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.github.bumptech.glide:gifdecoder:4.15.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.exifinterface:exifinterface:1.3.3@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.bumptech.glide:glide:4.16.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.bumptech.glide:gifdecoder:4.16.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.exifinterface:exifinterface:1.3.6@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.tracing:tracing:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: de.hdodenhof:circleimageview:3.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.room:room-runtime:2.5.2@aar" level="project" />
@@ -266,8 +266,8 @@
     <orderEntry type="library" name="Gradle: com.google.dagger:hilt-core:2.47" level="project" />
     <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
     <orderEntry type="library" name="Gradle: androidx.collection:collection-ktx:1.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.github.bumptech.glide:disklrucache:4.15.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.github.bumptech.glide:annotations:4.15.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.bumptech.glide:disklrucache:4.16.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.bumptech.glide:annotations:4.16.0" level="project" />
     <orderEntry type="library" name="Gradle: androidx.room:room-common:2.5.2" level="project" />
   </component>
 </module>
